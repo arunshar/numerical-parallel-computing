@@ -1,0 +1,4 @@
+Jacobi residual after 100 steps: 1.692648e-01
+CG iterations: 6
+CG residual: 0.000000e+00
+solution error: 1.776357e-15

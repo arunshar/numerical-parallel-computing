@@ -1,0 +1,5 @@
+alpha=0.05, objective after 25 steps=1.538900e-01
+alpha=0.09, objective after 25 steps=1.848107e-02
+alpha=0.11, objective after 25 steps=3.640175e+05
+Newton objective after one step: 0.000000e+00
+exact-line-search objective after 10 steps: 9.015413e-13

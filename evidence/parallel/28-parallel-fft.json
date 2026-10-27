@@ -1,0 +1,22 @@
+{
+  "max_reference_error": 6.280369834735101e-16,
+  "reconstruction_ok": true,
+  "ownership_stages": [
+    {
+      "partner_bit": 0,
+      "remote_pairs": 0
+    },
+    {
+      "partner_bit": 1,
+      "remote_pairs": 0
+    },
+    {
+      "partner_bit": 2,
+      "remote_pairs": 8
+    },
+    {
+      "partner_bit": 3,
+      "remote_pairs": 8
+    }
+  ]
+}

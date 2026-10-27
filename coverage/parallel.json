@@ -1,0 +1,367 @@
+[
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 1,
+    "topics": [
+      "Flynn taxonomy",
+      "pipeline",
+      "superscalar",
+      "SIMD and AVX",
+      "PRAM EREW CREW CRCW",
+      "cache locality",
+      "latency and bandwidth",
+      "NUMA",
+      "false sharing",
+      "arithmetic intensity"
+    ],
+    "lecture": "17-architecture-cache",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 2,
+    "topics": [
+      "Flynn taxonomy",
+      "pipeline",
+      "superscalar",
+      "SIMD and AVX",
+      "PRAM EREW CREW CRCW",
+      "cache locality",
+      "latency and bandwidth",
+      "NUMA",
+      "false sharing",
+      "arithmetic intensity"
+    ],
+    "lecture": "17-architecture-cache",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 3,
+    "topics": [
+      "work-span",
+      "dependency graphs",
+      "data decomposition",
+      "recursive decomposition",
+      "exploratory decomposition",
+      "speculation",
+      "block cyclic mapping",
+      "dynamic scheduling",
+      "work stealing",
+      "owner computes"
+    ],
+    "lecture": "18-decomposition-task-graphs",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 7,
+    "topics": [
+      "POSIX threads",
+      "mutexes",
+      "condition variables",
+      "barriers",
+      "C data races",
+      "atomics",
+      "OpenMP parallel for",
+      "reduction",
+      "scheduling",
+      "tasks",
+      "affinity"
+    ],
+    "lecture": "19-pthreads-openmp",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 2,
+    "topics": [
+      "ring mesh torus hypercube fat tree",
+      "diameter",
+      "bisection bandwidth",
+      "routing",
+      "embedding dilation congestion",
+      "alpha beta model",
+      "broadcast reduction allreduce",
+      "scatter gather allgather alltoall",
+      "scan"
+    ],
+    "lecture": "20-communication-networks",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 4,
+    "topics": [
+      "ring mesh torus hypercube fat tree",
+      "diameter",
+      "bisection bandwidth",
+      "routing",
+      "embedding dilation congestion",
+      "alpha beta model",
+      "broadcast reduction allreduce",
+      "scatter gather allgather alltoall",
+      "scan"
+    ],
+    "lecture": "20-communication-networks",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 6,
+    "topics": [
+      "MPI rank and communicator",
+      "message envelope",
+      "datatype count status",
+      "blocking standard synchronous buffered ready sends",
+      "nonblocking requests",
+      "deadlock",
+      "Sendrecv",
+      "derived datatypes",
+      "progress and overlap"
+    ],
+    "lecture": "21-mpi-point-to-point",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 4,
+    "topics": [
+      "collective semantics",
+      "collective ordering",
+      "reduce allreduce scan",
+      "Scatterv Gatherv Alltoallv",
+      "counts and displacements",
+      "groups and communicators",
+      "Comm_split",
+      "Cartesian topology",
+      "periodicity"
+    ],
+    "lecture": "22-mpi-collectives-topology",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 6,
+    "topics": [
+      "collective semantics",
+      "collective ordering",
+      "reduce allreduce scan",
+      "Scatterv Gatherv Alltoallv",
+      "counts and displacements",
+      "groups and communicators",
+      "Comm_split",
+      "Cartesian topology",
+      "periodicity"
+    ],
+    "lecture": "22-mpi-collectives-topology",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 5,
+    "topics": [
+      "speedup efficiency cost overhead",
+      "Amdahl law",
+      "Gustafson law",
+      "strong weak scaling",
+      "isoefficiency",
+      "work-span",
+      "superlinear speedup",
+      "benchmark methodology"
+    ],
+    "lecture": "23-performance-models",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 8,
+    "topics": [
+      "BLAS levels",
+      "matrix-vector product",
+      "blocked GEMM",
+      "Cannon",
+      "SUMMA",
+      "block cyclic layout",
+      "parallel LU QR Cholesky",
+      "pivoting",
+      "tridiagonal cyclic reduction"
+    ],
+    "lecture": "24-dense-matrix-cannon",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 9,
+    "topics": [
+      "sorting correctness stability",
+      "sorting networks",
+      "odd even transposition",
+      "odd even mergesort",
+      "bitonic sort",
+      "parallel quicksort",
+      "bucket sample sort",
+      "radix sort",
+      "parallel merge co rank",
+      "selection"
+    ],
+    "lecture": "25-sorting-merging",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 10,
+    "topics": [
+      "graph representations",
+      "BFS frontier",
+      "Dijkstra",
+      "Prim",
+      "Floyd Warshall",
+      "transitive closure",
+      "connected components",
+      "COO CSR",
+      "SpMV",
+      "graph Laplacian",
+      "spectral multilevel partitioning",
+      "domain decomposition"
+    ],
+    "lecture": "26-graphs-sparse-partitioning",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "CSCI5451 instructor course material",
+    "chapter": "Saad sets16-17",
+    "topics": [
+      "graph representations",
+      "BFS frontier",
+      "Dijkstra",
+      "Prim",
+      "Floyd Warshall",
+      "transitive closure",
+      "connected components",
+      "COO CSR",
+      "SpMV",
+      "graph Laplacian",
+      "spectral multilevel partitioning",
+      "domain decomposition"
+    ],
+    "lecture": "26-graphs-sparse-partitioning",
+    "status": "explained"
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 11,
+    "topics": [
+      "DFS BFS best first",
+      "branch and bound",
+      "search overhead",
+      "work stealing",
+      "termination detection",
+      "parallel A star",
+      "dynamic programming",
+      "wavefront",
+      "monadic polyadic serial nonserial",
+      "matrix chain"
+    ],
+    "lecture": "27-search-dynamic-programming",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 12,
+    "topics": [
+      "DFS BFS best first",
+      "branch and bound",
+      "search overhead",
+      "work stealing",
+      "termination detection",
+      "parallel A star",
+      "dynamic programming",
+      "wavefront",
+      "monadic polyadic serial nonserial",
+      "matrix chain"
+    ],
+    "lecture": "27-search-dynamic-programming",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": 13,
+    "topics": [
+      "DFT FFT butterflies",
+      "radix2 bit reversal twiddles",
+      "mixed radix Bluestein survey",
+      "binary exchange FFT",
+      "transpose FFT",
+      "slab pencil decomposition",
+      "real transforms",
+      "linear circular convolution"
+    ],
+    "lecture": "28-parallel-fft",
+    "status": "explained",
+    "scope": "Original concept tutorial and toy experiment. Full textbook text was not available."
+  },
+  {
+    "source": "CSCI5451 instructor course material",
+    "chapter": "Saad sets18-19",
+    "topics": [
+      "MPI plus OpenMP",
+      "MPI thread support",
+      "MPI plus CUDA",
+      "CUDA aware MPI",
+      "completion and overlap",
+      "qubits gates measurement",
+      "entanglement",
+      "Deutsch Jozsa",
+      "quantum query model"
+    ],
+    "lecture": "29-hybrid-quantum",
+    "status": "explained"
+  },
+  {
+    "source": "CSCI5451 instructor course material",
+    "chapter": "Mooney homework and project sequence",
+    "topics": [
+      "problem contracts",
+      "reference implementations",
+      "tolerances",
+      "invariants metamorphic testing",
+      "benchmark baseline",
+      "end to end timing",
+      "homework concept mapping",
+      "project planning",
+      "reproducibility",
+      "Claude handoff"
+    ],
+    "lecture": "30-course-project-workflow",
+    "status": "explained"
+  },
+  {
+    "source": "Grama, Gupta, Karypis, and Kumar, Introduction to Parallel Computing, second edition",
+    "chapter": "Appendix A",
+    "topics": [
+      "Big O",
+      "Big Omega",
+      "Big Theta",
+      "multivariate parallel runtime",
+      "work and span"
+    ],
+    "lecture": "18-decomposition-task-graphs",
+    "status": "explained"
+  }
+]

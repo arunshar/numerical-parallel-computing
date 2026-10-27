@@ -1,0 +1,7 @@
+primal solution: [0.5 0.5]
+Lagrange multiplier: -0.500000
+constraint residual: 0.000000e+00
+stationarity residual: 0.000000e+00
+projection onto nonnegative orthant: [0. 3.]
+hard-margin signed scores: [2. 1. 1. 2.]
+geometric margin: 1.000000

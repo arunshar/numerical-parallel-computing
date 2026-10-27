@@ -1,0 +1,634 @@
+[
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 1,
+    "topics": [
+      "absolute and relative error",
+      "forward and backward error",
+      "conditioning",
+      "stability",
+      "floating point",
+      "subnormals",
+      "overflow and NaN",
+      "cancellation",
+      "summation"
+    ],
+    "lecture": "docs/lectures/01-errors-floating-point.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 2,
+    "topics": [
+      "linear systems",
+      "norms",
+      "conditioning",
+      "Gaussian elimination",
+      "LU",
+      "partial pivoting",
+      "triangular solves",
+      "Cholesky",
+      "banded and sparse systems",
+      "iterative refinement"
+    ],
+    "lecture": "docs/lectures/02-linear-systems.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 3,
+    "topics": [
+      "least squares",
+      "orthogonal projections",
+      "normal equations",
+      "QR",
+      "Householder",
+      "Givens",
+      "Gram-Schmidt",
+      "SVD",
+      "rank deficiency",
+      "regularization"
+    ],
+    "lecture": "docs/lectures/03-least-squares-svd.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 4,
+    "topics": [
+      "eigenvalues",
+      "multiplicity",
+      "defective matrices",
+      "invariant subspaces",
+      "Schur form",
+      "Gershgorin disks",
+      "power iteration",
+      "inverse iteration",
+      "Rayleigh quotient iteration",
+      "QR iteration",
+      "Krylov methods"
+    ],
+    "lecture": "docs/lectures/04-eigenvalues.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 5,
+    "topics": [
+      "existence and uniqueness",
+      "bisection",
+      "fixed points",
+      "Newton",
+      "secant",
+      "inverse interpolation",
+      "safeguarding",
+      "Jacobian",
+      "Broyden",
+      "polynomial roots"
+    ],
+    "lecture": "docs/lectures/05-nonlinear-equations.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 6,
+    "topics": [
+      "optimality",
+      "convexity",
+      "gradient descent",
+      "line search",
+      "trust regions",
+      "Newton",
+      "BFGS",
+      "nonlinear conjugate gradients",
+      "Gauss-Newton",
+      "Levenberg-Marquardt"
+    ],
+    "lecture": "docs/lectures/06-unconstrained-optimization.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 6,
+    "topics": [
+      "equality and inequality constraints",
+      "Lagrangian",
+      "KKT",
+      "projection",
+      "QP",
+      "LP",
+      "penalty",
+      "barrier",
+      "augmented Lagrangian",
+      "SQP",
+      "SVM"
+    ],
+    "lecture": "docs/lectures/07-constrained-optimization-svm.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 7,
+    "topics": [
+      "Vandermonde",
+      "Lagrange",
+      "Newton interpolation",
+      "barycentric evaluation",
+      "Runge phenomenon",
+      "Chebyshev nodes",
+      "Lebesgue constant",
+      "Hermite interpolation",
+      "cubic splines",
+      "B-splines",
+      "best approximation"
+    ],
+    "lecture": "docs/lectures/08-interpolation-splines.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 8,
+    "topics": [
+      "trapezoid",
+      "Simpson",
+      "Newton-Cotes",
+      "Gauss quadrature",
+      "Clenshaw-Curtis",
+      "Gauss-Kronrod",
+      "adaptive quadrature",
+      "Romberg",
+      "Richardson",
+      "finite differences",
+      "automatic differentiation",
+      "improper and multiple integrals"
+    ],
+    "lecture": "docs/lectures/09-quadrature-differentiation.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 9,
+    "topics": [
+      "ODE existence and uniqueness",
+      "Euler",
+      "Runge-Kutta",
+      "local and global error",
+      "absolute stability",
+      "stiffness",
+      "implicit integration",
+      "Adams methods",
+      "BDF",
+      "adaptivity",
+      "events",
+      "multivalue methods"
+    ],
+    "lecture": "docs/lectures/10-ode-initial-value.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 10,
+    "topics": [
+      "Dirichlet Neumann Robin",
+      "shooting",
+      "multiple shooting",
+      "finite differences",
+      "collocation",
+      "weak forms",
+      "finite elements",
+      "Galerkin",
+      "boundary eigenvalue problems"
+    ],
+    "lecture": "docs/lectures/11-boundary-value.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 11,
+    "topics": [
+      "elliptic parabolic hyperbolic",
+      "heat stencil",
+      "CFL",
+      "method of lines",
+      "finite volume",
+      "finite elements",
+      "spectral methods",
+      "sparse solvers",
+      "multigrid",
+      "domain decomposition"
+    ],
+    "lecture": "docs/lectures/12-pde.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 12,
+    "topics": [
+      "DFT",
+      "FFT",
+      "normalization",
+      "frequency bins",
+      "aliasing",
+      "leakage",
+      "zero padding",
+      "convolution",
+      "spectral differentiation",
+      "wavelets"
+    ],
+    "lecture": "docs/lectures/13-fourier-fft.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 13,
+    "topics": [
+      "pseudorandom generators",
+      "linear congruential",
+      "lagged Fibonacci",
+      "Monte Carlo",
+      "standard error",
+      "inverse transform",
+      "normal sampling",
+      "variance reduction",
+      "importance sampling",
+      "quasi-Monte Carlo"
+    ],
+    "lecture": "docs/lectures/14-random-simulation.md",
+    "status": "explained"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 2,
+    "topics": [
+      "complete pivoting",
+      "symmetric indefinite factorization",
+      "sparse reordering",
+      "BLAS and LAPACK internals"
+    ],
+    "lecture": "docs/lectures/02-linear-systems.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 3,
+    "topics": [
+      "complete robust Remez solver",
+      "full SVD algorithm"
+    ],
+    "lecture": "docs/lectures/03-least-squares-svd.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 4,
+    "topics": [
+      "divide-and-conquer eigensolvers",
+      "spectrum slicing",
+      "relatively robust representation",
+      "generalized eigenproblems"
+    ],
+    "lecture": "docs/lectures/04-eigenvalues.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 6,
+    "topics": [
+      "inexact and truncated Newton",
+      "limited-memory BFGS",
+      "nonlinear conjugate-gradient variants"
+    ],
+    "lecture": "docs/lectures/06-unconstrained-optimization.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 6,
+    "topics": [
+      "simplex internals",
+      "full primal-dual interior-point implementation",
+      "full SQP implementation"
+    ],
+    "lecture": "docs/lectures/07-constrained-optimization-svm.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 7,
+    "topics": [
+      "rational approximation",
+      "bicubic coefficient system"
+    ],
+    "lecture": "docs/lectures/08-interpolation-splines.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 8,
+    "topics": [
+      "integral equations",
+      "multidimensional quadrature",
+      "reverse-mode implementation"
+    ],
+    "lecture": "docs/lectures/09-quadrature-differentiation.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 9,
+    "topics": [
+      "symplectic integration",
+      "differential-algebraic equations",
+      "variable-order multivalue implementation"
+    ],
+    "lecture": "docs/lectures/10-ode-initial-value.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 10,
+    "topics": [
+      "Petrov-Galerkin stability",
+      "adaptive finite elements"
+    ],
+    "lecture": "docs/lectures/11-boundary-value.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 11,
+    "topics": [
+      "flux limiters",
+      "full multigrid implementation",
+      "spectral dealiasing"
+    ],
+    "lecture": "docs/lectures/12-pde.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 12,
+    "topics": [
+      "mixed-radix and prime-size FFT implementations",
+      "wavelet implementations"
+    ],
+    "lecture": "docs/lectures/13-fourier-fft.md",
+    "status": "survey"
+  },
+  {
+    "source": "Michael T. Heath, Scientific Computing, chapter slides and author contents",
+    "chapter": 13,
+    "topics": [
+      "Markov chain Monte Carlo diagnostics",
+      "parallel stream design",
+      "randomized quasi-Monte Carlo"
+    ],
+    "lecture": "docs/lectures/14-random-simulation.md",
+    "status": "survey"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 1,
+    "topics": [
+      "Numerical Algorithms"
+    ],
+    "lecture": "docs/lectures/16-numerical-workflow.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 2,
+    "topics": [
+      "Roundoff Errors"
+    ],
+    "lecture": "docs/lectures/01-errors-floating-point.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 3,
+    "topics": [
+      "Nonlinear Equations in One Variable"
+    ],
+    "lecture": "docs/lectures/05-nonlinear-equations.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 4,
+    "topics": [
+      "Linear Algebra Background"
+    ],
+    "lecture": "docs/lectures/02-linear-systems.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 5,
+    "topics": [
+      "Linear Systems: Direct Methods"
+    ],
+    "lecture": "docs/lectures/02-linear-systems.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 6,
+    "topics": [
+      "Least Squares"
+    ],
+    "lecture": "docs/lectures/03-least-squares-svd.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 7,
+    "topics": [
+      "Linear Systems: Iterative Methods"
+    ],
+    "lecture": "docs/lectures/15-iterative-solvers.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 8,
+    "topics": [
+      "Eigenvalues and Singular Values"
+    ],
+    "lecture": "docs/lectures/04-eigenvalues.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 9,
+    "topics": [
+      "Nonlinear Systems and Optimization"
+    ],
+    "lecture": "docs/lectures/06-unconstrained-optimization.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 10,
+    "topics": [
+      "Polynomial Interpolation"
+    ],
+    "lecture": "docs/lectures/08-interpolation-splines.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 11,
+    "topics": [
+      "Piecewise Polynomial Interpolation"
+    ],
+    "lecture": "docs/lectures/08-interpolation-splines.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 12,
+    "topics": [
+      "Best Approximation"
+    ],
+    "lecture": "docs/lectures/03-least-squares-svd.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 13,
+    "topics": [
+      "Fourier Transform"
+    ],
+    "lecture": "docs/lectures/13-fourier-fft.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 14,
+    "topics": [
+      "Numerical Differentiation"
+    ],
+    "lecture": "docs/lectures/09-quadrature-differentiation.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 15,
+    "topics": [
+      "Numerical Integration"
+    ],
+    "lecture": "docs/lectures/09-quadrature-differentiation.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 16,
+    "topics": [
+      "Differential Equations"
+    ],
+    "lecture": "docs/lectures/10-ode-initial-value.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 7,
+    "topics": [
+      "Jacobi",
+      "Gauss-Seidel",
+      "SOR",
+      "Krylov subspaces",
+      "CG",
+      "GMRES",
+      "preconditioning",
+      "residual stopping"
+    ],
+    "lecture": "docs/lectures/15-iterative-solvers.md",
+    "status": "explained"
+  },
+  {
+    "source": "Uri Ascher and Chen Greif, A First Course in Numerical Methods, public chapter listing",
+    "chapter": 12,
+    "topics": [
+      "continuous least squares",
+      "orthogonal polynomials",
+      "minimax",
+      "equioscillation",
+      "Remez purpose"
+    ],
+    "lecture": "docs/lectures/03-least-squares-svd.md",
+    "status": "explained"
+  },
+  {
+    "source": "CSCI 5302 supplementary notes",
+    "chapter": "Taylor-2Dv3.pdf",
+    "topics": [
+      "multivariate Taylor expansion",
+      "gradient",
+      "Hessian",
+      "directional derivative checks"
+    ],
+    "lecture": "docs/lectures/16-numerical-workflow.md",
+    "status": "explained"
+  },
+  {
+    "source": "CSCI 5302 supplementary notes",
+    "chapter": "bicubic.pdf",
+    "topics": [
+      "bilinear interpolation",
+      "bicubic coefficient count",
+      "derivative scaling",
+      "grid orientation"
+    ],
+    "lecture": "docs/lectures/16-numerical-workflow.md",
+    "status": "explained"
+  },
+  {
+    "source": "CSCI 5302 supplementary notes",
+    "chapter": "QP-LP-Examples.pdf",
+    "topics": [
+      "quadratic programming",
+      "linear programming",
+      "KKT",
+      "constraint sensitivity"
+    ],
+    "lecture": "docs/lectures/07-constrained-optimization-svm.md",
+    "status": "explained"
+  },
+  {
+    "source": "CSCI 5302 supplementary notes",
+    "chapter": "SVM-bennet-campbell.pdf",
+    "topics": [
+      "hard margin",
+      "soft margin",
+      "dual interpretation",
+      "kernels"
+    ],
+    "lecture": "docs/lectures/07-constrained-optimization-svm.md",
+    "status": "explained"
+  },
+  {
+    "source": "CSCI 5302 supplementary notes",
+    "chapter": "MatlabNotes",
+    "topics": [
+      "MATLAB NumPy array operation mapping",
+      "indexing",
+      "transpose",
+      "complex transpose",
+      "broadcasting"
+    ],
+    "lecture": "docs/lectures/16-numerical-workflow.md",
+    "status": "explained"
+  },
+  {
+    "source": "CSCI 5302 supplementary notes",
+    "chapter": "ff20.pdf",
+    "topics": [
+      "DFT",
+      "FFT",
+      "linear versus circular convolution"
+    ],
+    "lecture": "docs/lectures/13-fourier-fft.md",
+    "status": "explained"
+  }
+]

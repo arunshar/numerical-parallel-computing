@@ -1,0 +1,26 @@
+[
+  {
+    "stride_elements": 1,
+    "useful_bytes": 512,
+    "line_bytes": 512,
+    "utilization": 1.0
+  },
+  {
+    "stride_elements": 2,
+    "useful_bytes": 512,
+    "line_bytes": 1024,
+    "utilization": 0.5
+  },
+  {
+    "stride_elements": 4,
+    "useful_bytes": 512,
+    "line_bytes": 2048,
+    "utilization": 0.25
+  },
+  {
+    "stride_elements": 8,
+    "useful_bytes": 512,
+    "line_bytes": 4096,
+    "utilization": 0.125
+  }
+]

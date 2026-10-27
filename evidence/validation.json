@@ -1,0 +1,575 @@
+{
+  "python": "3.14.6",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "pages": [
+    {
+      "path": "docs/lectures/00-getting-ready.md",
+      "words": 1448,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/01-errors-floating-point.md",
+      "words": 1940,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/02-linear-systems.md",
+      "words": 1829,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/03-least-squares-svd.md",
+      "words": 1823,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/04-eigenvalues.md",
+      "words": 1789,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/05-nonlinear-equations.md",
+      "words": 1831,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/06-unconstrained-optimization.md",
+      "words": 1877,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/07-constrained-optimization-svm.md",
+      "words": 1880,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/08-interpolation-splines.md",
+      "words": 1792,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/09-quadrature-differentiation.md",
+      "words": 2003,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/10-ode-initial-value.md",
+      "words": 1925,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/11-boundary-value.md",
+      "words": 1925,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/12-pde.md",
+      "words": 1804,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/13-fourier-fft.md",
+      "words": 1789,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/14-random-simulation.md",
+      "words": 1794,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/15-iterative-solvers.md",
+      "words": 1858,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/16-numerical-workflow.md",
+      "words": 1993,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/17-architecture-cache.md",
+      "words": 1619,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/18-decomposition-task-graphs.md",
+      "words": 1791,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/19-pthreads-openmp.md",
+      "words": 1605,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/20-communication-networks.md",
+      "words": 1456,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/21-mpi-point-to-point.md",
+      "words": 1616,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/22-mpi-collectives-topology.md",
+      "words": 1577,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/23-performance-models.md",
+      "words": 1540,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/24-dense-matrix-cannon.md",
+      "words": 1558,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/25-sorting-merging.md",
+      "words": 1561,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/26-graphs-sparse-partitioning.md",
+      "words": 1510,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/27-search-dynamic-programming.md",
+      "words": 1581,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/28-parallel-fft.md",
+      "words": 1547,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/29-hybrid-quantum.md",
+      "words": 1556,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/30-course-project-workflow.md",
+      "words": 1663,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/31-cuda-execution.md",
+      "words": 1574,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/32-scheduling-occupancy.md",
+      "words": 1490,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/33-memory-tiling.md",
+      "words": 1518,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/34-gpu-performance.md",
+      "words": 1577,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/35-convolution.md",
+      "words": 1472,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/36-stencils.md",
+      "words": 1488,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/37-histograms-atomics.md",
+      "words": 1478,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/38-reductions.md",
+      "words": 1449,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/39-prefix-scan.md",
+      "words": 1592,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/40-merge-sort.md",
+      "words": 1548,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/41-sparse-graphs.md",
+      "words": 1587,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/42-deep-learning.md",
+      "words": 1478,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/43-mri-electrostatics.md",
+      "words": 1528,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/44-streams-clusters.md",
+      "words": 1529,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/45-dynamic-parallelism-future.md",
+      "words": 1635,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/46-gpu-numerics-project.md",
+      "words": 1623,
+      "quiz_questions": 5
+    },
+    {
+      "path": "docs/lectures/47-integrated-capstone.ipynb",
+      "words": 1758,
+      "quiz_questions": 5,
+      "executed_code_cells": 5
+    }
+  ],
+  "cpu_labs": [
+    {
+      "path": "labs/numerical/01_errors_floating_point.py",
+      "returncode": 0,
+      "stdout": "binary64 spacing at 1: 2.220446e-16\nnaive cancellation result: 5.0004445029117051e-13\nrationalized result: 4.9999999999987498e-13\nrelative disagreement: 8.890058e-05\nleft-to-right sum: 0.0\ncompensated sum: 1.0\nh=1e-02, central difference error=9.004993e-06\nh=1e-04, central difference error=9.004295e-10\nh=1e-06, central difference error=2.771694e-11\nh=1e-08, central difference error=2.969885e-09\nh=1e-10, central difference error=5.848104e-08\nh=1e-12, central difference error=1.227093e-05\n",
+      "stderr": "",
+      "sha256": "ad1506507ee3b6445427495f8387f6e6139a8e1cd7a43cfdc661c16e56d7a1cd"
+    },
+    {
+      "path": "labs/numerical/02_linear_systems.py",
+      "returncode": 0,
+      "stdout": "solution: [0.2 0.6]\nresidual norm: 0.000000e+00\ncondition number: 2.618034\nsensitive-system condition number: 4.000002e+06\nrelative data change: 4.999999e-08\nrelative solution change: 2.000000e-01\nperturbed residual: 0.000000e+00\n",
+      "stderr": "",
+      "sha256": "2342acd978d794470323c768504b799350debbfc7e3c203af01f6165cf01fab1"
+    },
+    {
+      "path": "labs/numerical/03_least_squares_svd.py",
+      "returncode": 0,
+      "stdout": "intercept and slope: [1.166667 0.5     ]\nresidual: [-0.166667  0.333333 -0.166667]\nnormal-equation residual: 4.440892e-16\nsingular values: [3.162278e+00 2.236068e-07]\ncondition of B: 1.414214e+07\ncondition of B.T@B: 2.009920e+14\nrelative cutoff 1e-08: numerical rank 2\nrelative cutoff 1e-06: numerical rank 1\n",
+      "stderr": "",
+      "sha256": "d50eca24c2ec62f10f5e6682681a0e529406f111c36da83e4ce34aa671c2914d"
+    },
+    {
+      "path": "labs/numerical/04_eigenvalues.py",
+      "returncode": 0,
+      "stdout": "iteration 1: lambda=2.800000000, residual=6.000000e-01\niteration 2: lambda=2.975609756, residual=2.195122e-01\niteration 3: lambda=2.997260274, residual=7.397260e-02\niteration 4: lambda=2.999695215, residual=2.468760e-02\niteration 5: lambda=2.999966130, residual=8.230313e-03\niteration 6: lambda=2.999996237, residual=2.743479e-03\niteration 7: lambda=2.999999582, residual=9.144946e-04\niteration 8: lambda=2.999999954, residual=3.048316e-04\nreference eigenvalues: [1. 3.]\ndefective-matrix eigenvalues: [1.+0.j 1.+0.j]\nrank of B-I: 1\n",
+      "stderr": "",
+      "sha256": "23cb938b9cab895f38f74f8766e23e147de55ac1386b1bc91b704c9aca5bc250"
+    },
+    {
+      "path": "labs/numerical/05_nonlinear_equations.py",
+      "returncode": 0,
+      "stdout": "bisection error bound: 4.656613e-10\nbisection root: 1.414213561919\nNewton step 1: x=1.500000000000, error=8.578644e-02\nNewton step 2: x=1.416666666667, error=2.453104e-03\nNewton step 3: x=1.414215686275, error=2.123901e-06\nNewton step 4: x=1.414213562375, error=1.594724e-12\nNewton step 5: x=1.414213562373, error=0.000000e+00\nsystem root: [1. 1.]\n",
+      "stderr": "",
+      "sha256": "7414ab44e42c46f3cbd34cec5084c37bcbd3f884643ac50c90aede61da0ec502"
+    },
+    {
+      "path": "labs/numerical/06_unconstrained_optimization.py",
+      "returncode": 0,
+      "stdout": "alpha=0.05, objective after 25 steps=1.538900e-01\nalpha=0.09, objective after 25 steps=1.848107e-02\nalpha=0.11, objective after 25 steps=3.640175e+05\nNewton objective after one step: 0.000000e+00\nexact-line-search objective after 10 steps: 9.015413e-13\n",
+      "stderr": "",
+      "sha256": "5f8b548330419446277403500f4a60686b8c8dbe18e4b40e79a20ea581e33244"
+    },
+    {
+      "path": "labs/numerical/07_constrained_optimization_svm.py",
+      "returncode": 0,
+      "stdout": "primal solution: [0.5 0.5]\nLagrange multiplier: -0.500000\nconstraint residual: 0.000000e+00\nstationarity residual: 0.000000e+00\nprojection onto nonnegative orthant: [0. 3.]\nhard-margin signed scores: [2. 1. 1. 2.]\ngeometric margin: 1.000000\n",
+      "stderr": "",
+      "sha256": "abe6c83d821c94788e2376cf30113a0f2ab9c52d983fca571b429a56f960b970"
+    },
+    {
+      "path": "labs/numerical/08_interpolation_splines.py",
+      "returncode": 0,
+      "stdout": "equally spaced maximum error: 7.194881e+00\nChebyshev maximum error: 5.350804e-02\npiecewise linear maximum error: 5.975961e-02\n",
+      "stderr": "",
+      "sha256": "cf27fd4d9082629f9c6554edf3ab2dbf70e1aef609e5953ece4d394190d4dc9d"
+    },
+    {
+      "path": "labs/numerical/09_quadrature_differentiation.py",
+      "returncode": 0,
+      "stdout": "n= 4: trapezoid error=8.940076e-03, Simpson error=3.701346e-05\nn= 8: trapezoid error=2.236764e-03, Simpson error=2.326241e-06\nn=16: trapezoid error=5.593001e-04, Simpson error=1.455928e-07\nn=32: trapezoid error=1.398319e-04, Simpson error=9.102726e-09\nn=64: trapezoid error=3.495839e-05, Simpson error=5.689702e-10\ntwo-point Gauss integral of x^2 on [-1,1]: 0.666666666667\nh=0.20: central error=6.680013e-03, extrapolated error=3.337304e-06\nh=0.10: central error=1.667500e-03, extrapolated error=2.083953e-07\nh=0.05: central error=4.167188e-04, extrapolated error=1.302180e-08\n",
+      "stderr": "",
+      "sha256": "18a625b7f3f478e1707d1b046e59dea4c8c2344c11d1a2fb8f9236eb74d27f3a"
+    },
+    {
+      "path": "labs/numerical/10_ode_initial_value.py",
+      "returncode": 0,
+      "stdout": "n=10: Euler error=1.920100e-02, RK4 error=3.332411e-07\nn=20: Euler error=9.393519e-03, RK4 error=1.997610e-08\nn=40: Euler error=4.647001e-03, RK4 error=1.222742e-09\nn=80: Euler error=2.311297e-03, RK4 error=7.562884e-11\nforward Euler amplification: -2.000000\nbackward Euler amplification: 0.250000\nexact amplification: 0.049787\n",
+      "stderr": "",
+      "sha256": "e20b2c7ebe351165a1b43a3c69d4f3b64ef9f7dcd2465656c3b6c9118c504d22"
+    },
+    {
+      "path": "labs/numerical/11_boundary_value.py",
+      "returncode": 0,
+      "stdout": "interior nodes= 9, max error=8.265417e-03, residual=5.085161e-14\ninterior nodes=19, max error=2.058707e-03, residual=2.051279e-13\ninterior nodes=39, max error=5.142005e-04, residual=1.191366e-12\ninterior nodes=79, max error=1.285204e-04, residual=6.038032e-12\nlinear shooting slope for u(0)=2 and u(1)=5: 3.000000\n",
+      "stderr": "",
+      "sha256": "20690249e98eebbaa23da7e3b28f732804d98c539fb246351420cf8d607dbe1f"
+    },
+    {
+      "path": "labs/numerical/12_pde.py",
+      "returncode": 0,
+      "stdout": "r=0.4: maximum absolute value after 100 steps=3.716453e-01\nr=0.4: highest-frequency amplification=-0.600000\nr=0.6: maximum absolute value after 100 steps=4.100186e+06\nr=0.6: highest-frequency amplification=-1.400000\nperiodic mass change: 5.551115e-17\n",
+      "stderr": "",
+      "sha256": "74827acc7061e1ebab103d962e88fe3977c4cfa9cda8a9e9a9747ea0883907f0"
+    },
+    {
+      "path": "labs/numerical/13_fourier_fft.py",
+      "returncode": 0,
+      "stdout": "DFT versus FFT difference: 1.317398e-14\nnonzero frequency bins: [ 3 13]\ninverse error: 1.359740e-16\nsample difference for cosine bins 3 and 13: 7.660539e-15\npadded FFT convolution: [ 4. 13. 22. 15.]\n",
+      "stderr": "",
+      "sha256": "49ff86b1c1ff0959d603e24d3e111e329e6abde07b6bd365a5ce3330fd09bb4a"
+    },
+    {
+      "path": "labs/numerical/14_random_simulation.py",
+      "returncode": 0,
+      "stdout": "n=  64: random error=3.252338e-02, estimated SE=3.114520e-02, quasi error=7.770856e-03\nn= 256: random error=4.356464e-03, estimated SE=1.883435e-02, quasi error=1.950567e-03\nn=1024: random error=2.493155e-02, estimated SE=9.457994e-03, quasi error=4.881221e-04\nn=4096: random error=1.885137e-03, estimated SE=4.649878e-03, quasi error=1.220604e-04\nexponential sample mean: 0.503652; exact mean: 0.500000\n",
+      "stderr": "",
+      "sha256": "de647b30ca41815bdd32a6a9293d82dd91b5fd755cb82a2aa3074f31c9901ad7"
+    },
+    {
+      "path": "labs/numerical/15_iterative_solvers.py",
+      "returncode": 0,
+      "stdout": "Jacobi residual after 100 steps: 1.692648e-01\nCG iterations: 6\nCG residual: 0.000000e+00\nsolution error: 1.776357e-15\n",
+      "stderr": "",
+      "sha256": "73f0b8d7e121ce2897f7c1cda982bdbe8d24835141af85547f1c3d2242a61aa5"
+    },
+    {
+      "path": "labs/numerical/16_numerical_workflow.py",
+      "returncode": 0,
+      "stdout": "scale=0.20: first-order error=2.140276e-02, second-order error=1.402758e-03\nscale=0.10: first-order error=5.170918e-03, second-order error=1.709181e-04\nscale=0.05: first-order error=1.271096e-03, second-order error=2.109638e-05\nbilinear value: 1.250000\nsum of weights: 1.000000\nelementwise square: [1. 4. 9.]\n",
+      "stderr": "",
+      "sha256": "1fa025a3279969e89b00d351b465e74c80cfb6079f63476b260e0816fe59674d"
+    },
+    {
+      "path": "labs/parallel/17-architecture-cache.py",
+      "returncode": 0,
+      "stdout": "[\n  {\n    \"stride_elements\": 1,\n    \"useful_bytes\": 512,\n    \"line_bytes\": 512,\n    \"utilization\": 1.0\n  },\n  {\n    \"stride_elements\": 2,\n    \"useful_bytes\": 512,\n    \"line_bytes\": 1024,\n    \"utilization\": 0.5\n  },\n  {\n    \"stride_elements\": 4,\n    \"useful_bytes\": 512,\n    \"line_bytes\": 2048,\n    \"utilization\": 0.25\n  },\n  {\n    \"stride_elements\": 8,\n    \"useful_bytes\": 512,\n    \"line_bytes\": 4096,\n    \"utilization\": 0.125\n  }\n]\n",
+      "stderr": "",
+      "sha256": "d5b6859af23ff7a39b36a3a6a38bef64b2f684f31b3b8007079ef25e662fbc78"
+    },
+    {
+      "path": "labs/parallel/18-decomposition-task-graphs.py",
+      "returncode": 0,
+      "stdout": "{\n  \"block\": {\n    \"loads\": [\n      3,\n      7,\n      11,\n      15\n    ],\n    \"makespan\": 15\n  },\n  \"cyclic\": {\n    \"loads\": [\n      6,\n      8,\n      10,\n      12\n    ],\n    \"makespan\": 12\n  },\n  \"greedy\": {\n    \"loads\": [\n      9,\n      9,\n      9,\n      9\n    ],\n    \"makespan\": 9\n  }\n}\n",
+      "stderr": "",
+      "sha256": "c7ee57a79b3068696ca6b5f4b2a04be8d46b95658dd10e250da24c7aa884add4"
+    },
+    {
+      "path": "labs/parallel/19-pthreads-openmp.py",
+      "returncode": 0,
+      "stdout": "{\n  \"partial_sums\": [\n    124750,\n    125000,\n    125250,\n    125500\n  ],\n  \"correct_sum\": 500500,\n  \"modeled_lost_update\": 1\n}\n",
+      "stderr": "",
+      "sha256": "005292319ade8b3241522aff7a18359d6e415f30792193c44211d4e4d2cae84c"
+    },
+    {
+      "path": "labs/parallel/20-communication-networks.py",
+      "returncode": 0,
+      "stdout": "[\n  {\n    \"bytes\": 1024,\n    \"tree_allreduce_us\": 12.614,\n    \"ring_allreduce_us\": 28.179\n  },\n  {\n    \"bytes\": 1048576,\n    \"tree_allreduce_us\": 641.146,\n    \"ring_allreduce_us\": 211.501\n  }\n]\n",
+      "stderr": "",
+      "sha256": "120a3bd1ea4b11da2ed0dc70ddf1e01b74cb1814b32b40ea79b2a9945d632452"
+    },
+    {
+      "path": "labs/parallel/21-mpi-point-to-point.py",
+      "returncode": 0,
+      "stdout": "[\n  {\n    \"rank\": 0,\n    \"send_to\": 1,\n    \"receive_from\": 3,\n    \"received_value\": 3\n  },\n  {\n    \"rank\": 1,\n    \"send_to\": 2,\n    \"receive_from\": 0,\n    \"received_value\": 0\n  },\n  {\n    \"rank\": 2,\n    \"send_to\": 3,\n    \"receive_from\": 1,\n    \"received_value\": 1\n  },\n  {\n    \"rank\": 3,\n    \"send_to\": 0,\n    \"receive_from\": 2,\n    \"received_value\": 2\n  }\n]\n",
+      "stderr": "",
+      "sha256": "647cf05048854f754c56665890b806d72f58fb5bdfab19e3e3be53b15394d691"
+    },
+    {
+      "path": "labs/parallel/22-mpi-collectives-topology.py",
+      "returncode": 0,
+      "stdout": "{\n  \"counts\": [\n    3,\n    3,\n    2,\n    2\n  ],\n  \"displacements\": [\n    0,\n    3,\n    6,\n    8\n  ],\n  \"chunks\": [\n    [\n      0,\n      1,\n      2\n    ],\n    [\n      3,\n      4,\n      5\n    ],\n    [\n      6,\n      7\n    ],\n    [\n      8,\n      9\n    ]\n  ],\n  \"inclusive_scan\": [\n    3,\n    10,\n    21,\n    36\n  ],\n  \"allreduce_sum\": 36\n}\n",
+      "stderr": "",
+      "sha256": "991473d4489f9f5f402b580bbf1b3448df549ee7dedd990c68cf5235c6cb30d2"
+    },
+    {
+      "path": "labs/parallel/23-performance-models.py",
+      "returncode": 0,
+      "stdout": "[\n  {\n    \"processors\": 1,\n    \"amdahl_speedup\": 1.0,\n    \"gustafson_scaled_speedup\": 1.0,\n    \"work_for_efficiency_0_8\": null\n  },\n  {\n    \"processors\": 2,\n    \"amdahl_speedup\": 1.8182,\n    \"gustafson_scaled_speedup\": 1.9,\n    \"work_for_efficiency_0_8\": 8.0\n  },\n  {\n    \"processors\": 4,\n    \"amdahl_speedup\": 3.0769,\n    \"gustafson_scaled_speedup\": 3.7,\n    \"work_for_efficiency_0_8\": 32.0\n  },\n  {\n    \"processors\": 8,\n    \"amdahl_speedup\": 4.7059,\n    \"gustafson_scaled_speedup\": 7.3,\n    \"work_for_efficiency_0_8\": 96.0\n  },\n  {\n    \"processors\": 16,\n    \"amdahl_speedup\": 6.4,\n    \"gustafson_scaled_speedup\": 14.5,\n    \"work_for_efficiency_0_8\": 256.0\n  }\n]\n",
+      "stderr": "",
+      "sha256": "49ee4997041668b13cf0e820192f8fe225b17ec3d6d5b0c4c74df004c345fb50"
+    },
+    {
+      "path": "labs/parallel/24-dense-matrix-cannon.py",
+      "returncode": 0,
+      "stdout": "{\n  \"trace\": [\n    {\n      \"rank\": [\n        0,\n        0\n      ],\n      \"inner_blocks\": [\n        0,\n        1\n      ]\n    },\n    {\n      \"rank\": [\n        0,\n        1\n      ],\n      \"inner_blocks\": [\n        1,\n        0\n      ]\n    },\n    {\n      \"rank\": [\n        1,\n        0\n      ],\n      \"inner_blocks\": [\n        1,\n        0\n      ]\n    },\n    {\n      \"rank\": [\n        1,\n        1\n      ],\n      \"inner_blocks\": [\n        0,\n        1\n      ]\n    }\n  ],\n  \"C\": [\n    [\n      62,\n      68,\n      74,\n      80\n    ],\n    [\n      174,\n      196,\n      218,\n      240\n    ],\n    [\n      286,\n      324,\n      362,\n      400\n    ],\n    [\n      398,\n      452,\n      506,\n      560\n    ]\n  ],\n  \"matches_serial\": true\n}\n",
+      "stderr": "",
+      "sha256": "2b801ebed6697e0faf622a38da0dbe91de0269d13149189769653618110e5846"
+    },
+    {
+      "path": "labs/parallel/25-sorting-merging.py",
+      "returncode": 0,
+      "stdout": "{\n  \"phases\": [\n    [\n      2,\n      7,\n      3,\n      6,\n      1,\n      8,\n      4,\n      5\n    ],\n    [\n      2,\n      3,\n      7,\n      1,\n      6,\n      4,\n      8,\n      5\n    ],\n    [\n      2,\n      3,\n      1,\n      7,\n      4,\n      6,\n      5,\n      8\n    ],\n    [\n      2,\n      1,\n      3,\n      4,\n      7,\n      5,\n      6,\n      8\n    ],\n    [\n      1,\n      2,\n      3,\n      4,\n      5,\n      7,\n      6,\n      8\n    ],\n    [\n      1,\n      2,\n      3,\n      4,\n      5,\n      6,\n      7,\n      8\n    ],\n    [\n      1,\n      2,\n      3,\n      4,\n      5,\n      6,\n      7,\n      8\n    ],\n    [\n      1,\n      2,\n      3,\n      4,\n      5,\n      6,\n      7,\n      8\n    ]\n  ],\n  \"sorted\": [\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    7,\n    8\n  ],\n  \"preserves_multiset\": true\n}\n",
+      "stderr": "",
+      "sha256": "79f054061343f4d161578cf9d96155a3cad22ae8de6477830ccba0bbcd8807f5"
+    },
+    {
+      "path": "labs/parallel/26-graphs-sparse-partitioning.py",
+      "returncode": 0,
+      "stdout": "{\n  \"rowptr\": [\n    0,\n    2,\n    5,\n    8,\n    10\n  ],\n  \"columns\": [\n    0,\n    1,\n    0,\n    1,\n    2,\n    1,\n    2,\n    3,\n    2,\n    3\n  ],\n  \"y\": [\n    -1.0,\n    -1.0,\n    -2.0,\n    4.0\n  ],\n  \"laplacian_constant_residual\": 0.0\n}\n",
+      "stderr": "",
+      "sha256": "51a7651ef99ee15f2aa13b6c572af0907da7946c10efac60af797e8cd8386c11"
+    },
+    {
+      "path": "labs/parallel/27-search-dynamic-programming.py",
+      "returncode": 0,
+      "stdout": "{\n  \"edit_distance\": 3,\n  \"wavefront_widths\": [\n    1,\n    2,\n    3,\n    4,\n    5,\n    6,\n    6,\n    5,\n    4,\n    3,\n    2,\n    1\n  ],\n  \"cells_updated\": 42\n}\n",
+      "stderr": "",
+      "sha256": "3410591c11ca4bd039206a06bd4a39274611b0a4b38074baccb1ff62696d1b7a"
+    },
+    {
+      "path": "labs/parallel/28-parallel-fft.py",
+      "returncode": 0,
+      "stdout": "{\n  \"max_reference_error\": 6.280369834735101e-16,\n  \"reconstruction_ok\": true,\n  \"ownership_stages\": [\n    {\n      \"partner_bit\": 0,\n      \"remote_pairs\": 0\n    },\n    {\n      \"partner_bit\": 1,\n      \"remote_pairs\": 0\n    },\n    {\n      \"partner_bit\": 2,\n      \"remote_pairs\": 8\n    },\n    {\n      \"partner_bit\": 3,\n      \"remote_pairs\": 8\n    }\n  ]\n}\n",
+      "stderr": "",
+      "sha256": "ab0b685863fb4994a4bdfe6997592df8f1c9dba966e2e84129df9f08f990ff0b"
+    },
+    {
+      "path": "labs/parallel/29-hybrid-quantum.py",
+      "returncode": 0,
+      "stdout": "{\n  \"deutsch_jozsa_probabilities\": {\n    \"constant\": [\n      1.0,\n      0.0,\n      0.0,\n      0.0\n    ],\n    \"balanced\": [\n      0.0,\n      0.0,\n      0.0,\n      1.0\n    ]\n  },\n  \"bell_probabilities\": [\n    0.4999999999999999,\n    0.0,\n    0.0,\n    0.4999999999999999\n  ]\n}\n",
+      "stderr": "",
+      "sha256": "25ccb48de6c27d01a71cef546f97588b4679bc05d2bb38a7deb0c428b9592eef"
+    },
+    {
+      "path": "labs/parallel/30-course-project-workflow.py",
+      "returncode": 0,
+      "stdout": "{\n  \"seed\": 5451,\n  \"A_shape\": [\n    7,\n    5\n  ],\n  \"B_shape\": [\n    5,\n    6\n  ],\n  \"dtype\": \"float64\",\n  \"tile\": 3,\n  \"max_abs_error\": 8.881784197001252e-16,\n  \"input_sha256\": \"5b80f8064e32ef337056be992e149bf709cc9da22481df492edc98a461d8d420\",\n  \"runtime_measured\": false,\n  \"claim\": \"The blocked result matches the reference within1e-12.\"\n}\n",
+      "stderr": "",
+      "sha256": "a129c9d636241f484c69e8a9f09a6b839a4d340c619a7658ee8744f6ccfed667"
+    },
+    {
+      "path": "labs/gpu/31_cuda_execution.py",
+      "returncode": 0,
+      "stdout": "elements=10, blocks=3, launched_threads=12\nvalid_threads=10, skipped_threads=2\nvector_sum= [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]\nrectangular_address_count=15\n",
+      "stderr": "",
+      "sha256": "49726a5647815a219c9e8593c07c1da664c21b12fd450b2800680b1a73c1a5aa"
+    },
+    {
+      "path": "labs/gpu/32_scheduling_occupancy.py",
+      "returncode": 0,
+      "stdout": "registers/thread=32, shared/block=8192: blocks=8, warps=64, occupancy=1.000\nregisters/thread=64, shared/block=8192: blocks=4, warps=32, occupancy=0.500\nregisters/thread=32, shared/block=24576: blocks=2, warps=16, occupancy=0.250\n",
+      "stderr": "",
+      "sha256": "1a109b3505116f41b57b9ec17801b8722462a768ca3d57d7929b41e47c021adf"
+    },
+    {
+      "path": "labs/gpu/33_memory_tiling.py",
+      "returncode": 0,
+      "stdout": "rectangular_product_max_error=1.110e-16\ntile=4, input_only_intensity=1.0 FLOP/byte\ntile=8, input_only_intensity=2.0 FLOP/byte\ntile=16, input_only_intensity=4.0 FLOP/byte\ntile=32, input_only_intensity=8.0 FLOP/byte\nword_stride=32, distinct_banks=1\nword_stride=33, distinct_banks=32\n",
+      "stderr": "",
+      "sha256": "d84ba1afe7734824d7b6ce6c1b87d852a3d5a508647f497a9bb9af2611043b59"
+    },
+    {
+      "path": "labs/gpu/34_gpu_performance.py",
+      "returncode": 0,
+      "stdout": "word_stride=1, segments=4, useful_fraction=1.000\nword_stride=2, segments=8, useful_fraction=0.500\nword_stride=8, segments=32, useful_fraction=0.125\nintensity=0.25, roofline_bound=25.0 GFLOP/s\nintensity=2.00, roofline_bound=200.0 GFLOP/s\nintensity=10.00, roofline_bound=1000.0 GFLOP/s\nintensity=20.00, roofline_bound=1000.0 GFLOP/s\n",
+      "stderr": "",
+      "sha256": "5ec6a5c23a2b82ff333d052e499d0d7fa131bc75227ad4100339cd54015835e5"
+    },
+    {
+      "path": "labs/gpu/35_convolution.py",
+      "returncode": 0,
+      "stdout": "zero_padded_cross_correlation= [3.0, 0.0, 6.0, 5.0, 13.0]\noutput_width=8, halo_load_ratio=1.562500\noutput_width=16, halo_load_ratio=1.265625\noutput_width=32, halo_load_ratio=1.128906\n",
+      "stderr": "",
+      "sha256": "a619bd9c4f3f5983d00f9dc4efec45dcf2f828f88b6a3ba51b3310f8d1374747"
+    },
+    {
+      "path": "labs/gpu/36_stencils.py",
+      "returncode": 0,
+      "stdout": "four_step_solution= [0.0, 0.03125, 0.109375, 0.21875, 0.2734375, 0.21875, 0.109375, 0.03125, 0.0]\nsum=0.99218750, maximum=0.27343750\ndimension=1, tile_width=8, storage_ratio=1.250000\ndimension=2, tile_width=8, storage_ratio=1.562500\ndimension=3, tile_width=8, storage_ratio=1.953125\n",
+      "stderr": "",
+      "sha256": "8e599bf2cb5499abce18f851e861b86a0018c6534770314f0a394eac194a204b"
+    },
+    {
+      "path": "labs/gpu/37_histograms_atomics.py",
+      "returncode": 0,
+      "stdout": "histogram= [6, 4, 3, 3]\ndirect_global_updates=16, private_nonzero_merges=8\none_bin_private_merges=2\n",
+      "stderr": "",
+      "sha256": "9e68a871459ca2e5a38bb156762fb740c97c33f13107e10647e7ca105236d70d"
+    },
+    {
+      "path": "labs/gpu/38_reductions.py",
+      "returncode": 0,
+      "stdout": "odd_length_sum=45, tree_levels=4\nfloat32_left_order=1, reordered=2, exact_real_sum=2\n",
+      "stderr": "",
+      "sha256": "af997a5f30ab1c6842adcbe6eeb8c1af9cf7299a801aa8bf45fcc3972d53a3ef"
+    },
+    {
+      "path": "labs/gpu/39_prefix_scan.py",
+      "returncode": 0,
+      "stdout": "inclusive= [3, 4, 8, 9, 14, 23, 25, 31]\nexclusive= [0, 3, 4, 8, 9, 14, 23, 25]\ndoubling_additions=17, tree_additions=14\ncompacted_even_values= [4, 2, 6]\n",
+      "stderr": "",
+      "sha256": "645ddfeeacff2d5afaee1a792f679d75952ce3ce5ecb5f0e015f6b0ba17bc555"
+    },
+    {
+      "path": "labs/gpu/40_merge_sort.py",
+      "returncode": 0,
+      "stdout": "middle_co_rank= (3, 1)\nmerged_values= [1, 2, 3, 3, 3, 7, 8, 9]\ntwo_pass_radix_result= [0, 2, 7, 9, 13, 15]\n",
+      "stderr": "",
+      "sha256": "7d85f36017be9bab24739b92ce2b6fe3316d928e1b0ed53587f99f6c7132e3fb"
+    },
+    {
+      "path": "labs/gpu/41_sparse_graphs.py",
+      "returncode": 0,
+      "stdout": "csr_product= [6.0, 0.0, 13.0, 12.0]\nnonzeros=6, ell_slots=12, padding=6\nbfs_distances= [0, 1, 1, 2, 2, 3, -1]\n",
+      "stderr": "",
+      "sha256": "5a240c683f44ea27ef3e25fe03b7df01e91b433d0be0b03f213b0b4cfdf460d9"
+    },
+    {
+      "path": "labs/gpu/42_deep_learning.py",
+      "returncode": 0,
+      "stdout": "input_values=25, patch_values=81, expansion=3.24\ngemm_shape=(2,9)@(9,9), nominal_flops=324\nfirst_output_channel= [[-6, -6, -6], [-6, -6, -6], [-6, -6, -6]]\n",
+      "stderr": "",
+      "sha256": "8a2d0498123b22424629fdd02a6732febfd7f921badd150ba3c3b12966b0266c"
+    },
+    {
+      "path": "labs/gpu/43_mri_electrostatics.py",
+      "returncode": 0,
+      "stdout": "objective_initial=3.000000, objective_final=0.272727\nadjoint_identity_error=0.000e+00\nsoftened_potential= [0.642364, 0.207827, 0.094094]\n",
+      "stderr": "",
+      "sha256": "c4bbca1f725104f2d79e5cb77023c39e52675afb70bb41edb8b51e613248df8f"
+    },
+    {
+      "path": "labs/gpu/44_streams_clusters.py",
+      "returncode": 0,
+      "stdout": "chunks=1, sequential=9.0 ms, ideal_pipeline=9.0 ms, speedup_bound=1.000\nchunks=2, sequential=18.0 ms, ideal_pipeline=14.0 ms, speedup_bound=1.286\nchunks=4, sequential=36.0 ms, ideal_pipeline=24.0 ms, speedup_bound=1.500\nchunks=8, sequential=72.0 ms, ideal_pipeline=44.0 ms, speedup_bound=1.636\nhalo_sequential=12.0 ms, halo_ideal_overlap=8.0 ms\n",
+      "stderr": "",
+      "sha256": "0e4f7da0d929ece2b41d21fc88a3596592027081f96d34c34f8dc7c84caaefb8"
+    },
+    {
+      "path": "labs/gpu/45_dynamic_parallelism_future.py",
+      "returncode": 0,
+      "stdout": "threshold=8, leaves=128, internal_nodes=127, leaf_range=7..8\nthreshold=32, leaves=32, internal_nodes=31, leaf_range=31..32\nthreshold=128, leaves=8, internal_nodes=7, leaf_range=125..125\n",
+      "stderr": "",
+      "sha256": "7596aa3e301adfddbbe3d5eb2f39a6645557e6a4793a527facc76630bb9afd18"
+    },
+    {
+      "path": "labs/gpu/46_gpu_numerics_project.py",
+      "returncode": 0,
+      "stdout": "integer_case_equal= True\nresult= [[-12, -44, -16], [-27, -20, -5], [13, -28, -17]]\nfloat32_reassociation_max_difference=7.62939453e-05\ndirect_matrix_products=262144, factored_matrix_products=1\nmatrix_entries_to_sum=16384\n",
+      "stderr": "",
+      "sha256": "723418441c1f02cab2249c4974a23e2f927fd7c87c81b54affa86e37aecad420"
+    }
+  ],
+  "errors": [],
+  "claims": "CPU examples and analytic models do not validate CUDA execution or hardware performance."
+}

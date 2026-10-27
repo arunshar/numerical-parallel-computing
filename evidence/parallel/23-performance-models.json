@@ -1,0 +1,32 @@
+[
+  {
+    "processors": 1,
+    "amdahl_speedup": 1.0,
+    "gustafson_scaled_speedup": 1.0,
+    "work_for_efficiency_0_8": null
+  },
+  {
+    "processors": 2,
+    "amdahl_speedup": 1.8182,
+    "gustafson_scaled_speedup": 1.9,
+    "work_for_efficiency_0_8": 8.0
+  },
+  {
+    "processors": 4,
+    "amdahl_speedup": 3.0769,
+    "gustafson_scaled_speedup": 3.7,
+    "work_for_efficiency_0_8": 32.0
+  },
+  {
+    "processors": 8,
+    "amdahl_speedup": 4.7059,
+    "gustafson_scaled_speedup": 7.3,
+    "work_for_efficiency_0_8": 96.0
+  },
+  {
+    "processors": 16,
+    "amdahl_speedup": 6.4,
+    "gustafson_scaled_speedup": 14.5,
+    "work_for_efficiency_0_8": 256.0
+  }
+]

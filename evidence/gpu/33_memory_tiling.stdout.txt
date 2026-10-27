@@ -1,0 +1,7 @@
+rectangular_product_max_error=1.110e-16
+tile=4, input_only_intensity=1.0 FLOP/byte
+tile=8, input_only_intensity=2.0 FLOP/byte
+tile=16, input_only_intensity=4.0 FLOP/byte
+tile=32, input_only_intensity=8.0 FLOP/byte
+word_stride=32, distinct_banks=1
+word_stride=33, distinct_banks=32

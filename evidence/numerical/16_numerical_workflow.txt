@@ -1,0 +1,6 @@
+scale=0.20: first-order error=2.140276e-02, second-order error=1.402758e-03
+scale=0.10: first-order error=5.170918e-03, second-order error=1.709181e-04
+scale=0.05: first-order error=1.271096e-03, second-order error=2.109638e-05
+bilinear value: 1.250000
+sum of weights: 1.000000
+elementwise square: [1. 4. 9.]

@@ -1,0 +1,5 @@
+interior nodes= 9, max error=8.265417e-03, residual=5.085161e-14
+interior nodes=19, max error=2.058707e-03, residual=2.051279e-13
+interior nodes=39, max error=5.142005e-04, residual=1.191366e-12
+interior nodes=79, max error=1.285204e-04, residual=6.038032e-12
+linear shooting slope for u(0)=2 and u(1)=5: 3.000000

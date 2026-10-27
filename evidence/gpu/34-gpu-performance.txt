@@ -1,0 +1,7 @@
+word_stride=1, segments=4, useful_fraction=1.000
+word_stride=2, segments=8, useful_fraction=0.500
+word_stride=8, segments=32, useful_fraction=0.125
+intensity=0.25, roofline_bound=25.0 GFLOP/s
+intensity=2.00, roofline_bound=200.0 GFLOP/s
+intensity=10.00, roofline_bound=1000.0 GFLOP/s
+intensity=20.00, roofline_bound=1000.0 GFLOP/s

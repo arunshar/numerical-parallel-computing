@@ -1,0 +1,5 @@
+DFT versus FFT difference: 1.317398e-14
+nonzero frequency bins: [ 3 13]
+inverse error: 1.359740e-16
+sample difference for cosine bins 3 and 13: 7.660539e-15
+padded FFT convolution: [ 4. 13. 22. 15.]

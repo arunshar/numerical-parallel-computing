@@ -1,0 +1,3 @@
+equally spaced maximum error: 7.194881e+00
+Chebyshev maximum error: 5.350804e-02
+piecewise linear maximum error: 5.975961e-02

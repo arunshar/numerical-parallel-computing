@@ -1,0 +1,4 @@
+inclusive= [3, 4, 8, 9, 14, 23, 25, 31]
+exclusive= [0, 3, 4, 8, 9, 14, 23, 25]
+doubling_additions=17, tree_additions=14
+compacted_even_values= [4, 2, 6]

@@ -1,0 +1,404 @@
+[
+  {
+    "source": "PMPP4",
+    "chapter": "1",
+    "topics": [
+      "heterogeneous computing",
+      "host-device transfers",
+      "kernel launch",
+      "grids",
+      "bounds",
+      "row-major mapping",
+      "image blur",
+      "matrix multiplication"
+    ],
+    "lecture": "31-cuda-execution",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "2",
+    "topics": [
+      "heterogeneous computing",
+      "host-device transfers",
+      "kernel launch",
+      "grids",
+      "bounds",
+      "row-major mapping",
+      "image blur",
+      "matrix multiplication"
+    ],
+    "lecture": "31-cuda-execution",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "3",
+    "topics": [
+      "heterogeneous computing",
+      "host-device transfers",
+      "kernel launch",
+      "grids",
+      "bounds",
+      "row-major mapping",
+      "image blur",
+      "matrix multiplication"
+    ],
+    "lecture": "31-cuda-execution",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "4",
+    "topics": [
+      "SM",
+      "warps",
+      "scheduling",
+      "divergence",
+      "barriers",
+      "occupancy",
+      "register pressure",
+      "spills"
+    ],
+    "lecture": "32-scheduling-occupancy",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "5",
+    "topics": [
+      "global shared local constant register memory",
+      "tiling",
+      "matrix multiplication",
+      "bank conflicts",
+      "coalescing",
+      "boundary handling",
+      "register tiling"
+    ],
+    "lecture": "33-memory-tiling",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "6",
+    "topics": [
+      "roofline",
+      "arithmetic intensity",
+      "coalescing",
+      "memory segments",
+      "coarsening",
+      "register reuse",
+      "profiling",
+      "measurement"
+    ],
+    "lecture": "34-gpu-performance",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "7",
+    "topics": [
+      "convolution",
+      "cross-correlation",
+      "constant memory",
+      "halo",
+      "tiling",
+      "separability",
+      "boundary conditions"
+    ],
+    "lecture": "35-convolution",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "8",
+    "topics": [
+      "stencil",
+      "diffusion",
+      "stability",
+      "double buffering",
+      "halo",
+      "register tiling",
+      "temporal blocking"
+    ],
+    "lecture": "36-stencils",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "9",
+    "topics": [
+      "histogram",
+      "atomicity",
+      "contention",
+      "privatization",
+      "coarsening",
+      "aggregation",
+      "initialization"
+    ],
+    "lecture": "37-histograms-atomics",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "10",
+    "topics": [
+      "reduction trees",
+      "work depth",
+      "divergence",
+      "hierarchical reduction",
+      "identity",
+      "coarsening",
+      "floating-point order"
+    ],
+    "lecture": "38-reductions",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "11",
+    "topics": [
+      "inclusive exclusive scan",
+      "Kogge-Stone",
+      "Blelloch",
+      "Brent-Kung",
+      "work efficiency",
+      "hierarchy",
+      "segmented scan",
+      "compaction"
+    ],
+    "lecture": "39-prefix-scan",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "12",
+    "topics": [
+      "co-rank",
+      "merge",
+      "tiled circular buffers",
+      "coarsening",
+      "radix sort",
+      "merge sort",
+      "sorting networks",
+      "stability"
+    ],
+    "lecture": "40-merge-sort",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "13",
+    "topics": [
+      "co-rank",
+      "merge",
+      "tiled circular buffers",
+      "coarsening",
+      "radix sort",
+      "merge sort",
+      "sorting networks",
+      "stability"
+    ],
+    "lecture": "40-merge-sort",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "14",
+    "topics": [
+      "COO",
+      "CSR",
+      "ELL",
+      "ELL-COO",
+      "JDS",
+      "SpMV",
+      "BFS",
+      "frontiers",
+      "push pull",
+      "irregular load balance"
+    ],
+    "lecture": "41-sparse-graphs",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "15",
+    "topics": [
+      "COO",
+      "CSR",
+      "ELL",
+      "ELL-COO",
+      "JDS",
+      "SpMV",
+      "BFS",
+      "frontiers",
+      "push pull",
+      "irregular load balance"
+    ],
+    "lecture": "41-sparse-graphs",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "16",
+    "topics": [
+      "CNN",
+      "convolution layer",
+      "im2col",
+      "implicit GEMM",
+      "cuDNN",
+      "fusion",
+      "tensor cores",
+      "precision"
+    ],
+    "lecture": "42-deep-learning",
+    "status": "explained"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "17",
+    "topics": [
+      "MRI",
+      "Fourier operator",
+      "adjoint",
+      "regularized reconstruction",
+      "electrostatics",
+      "gather scatter",
+      "cutoff binning",
+      "coarsening"
+    ],
+    "lecture": "43-mri-electrostatics",
+    "status": "survey"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "18",
+    "topics": [
+      "MRI",
+      "Fourier operator",
+      "adjoint",
+      "regularized reconstruction",
+      "electrostatics",
+      "gather scatter",
+      "cutoff binning",
+      "coarsening"
+    ],
+    "lecture": "43-mri-electrostatics",
+    "status": "survey"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "19",
+    "topics": [
+      "computational thinking",
+      "streams",
+      "events",
+      "pinned memory",
+      "pipeline",
+      "MPI",
+      "CUDA-aware MPI",
+      "overlap",
+      "multi-GPU",
+      "LLM parallelism"
+    ],
+    "lecture": "44-streams-clusters",
+    "status": "survey"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "20",
+    "topics": [
+      "computational thinking",
+      "streams",
+      "events",
+      "pinned memory",
+      "pipeline",
+      "MPI",
+      "CUDA-aware MPI",
+      "overlap",
+      "multi-GPU",
+      "LLM parallelism"
+    ],
+    "lecture": "44-streams-clusters",
+    "status": "survey"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "21",
+    "topics": [
+      "dynamic parallelism",
+      "Bezier subdivision",
+      "quadtrees",
+      "persistent kernels",
+      "queues",
+      "CUDA Graphs",
+      "PTX SASS",
+      "tensor cores",
+      "libraries",
+      "Nsight",
+      "Triton",
+      "MLX",
+      "Trainium"
+    ],
+    "lecture": "45-dynamic-parallelism-future",
+    "status": "survey"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "22",
+    "topics": [
+      "dynamic parallelism",
+      "Bezier subdivision",
+      "quadtrees",
+      "persistent kernels",
+      "queues",
+      "CUDA Graphs",
+      "PTX SASS",
+      "tensor cores",
+      "libraries",
+      "Nsight",
+      "Triton",
+      "MLX",
+      "Trainium"
+    ],
+    "lecture": "45-dynamic-parallelism-future",
+    "status": "survey"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "23",
+    "topics": [
+      "dynamic parallelism",
+      "Bezier subdivision",
+      "quadtrees",
+      "persistent kernels",
+      "queues",
+      "CUDA Graphs",
+      "PTX SASS",
+      "tensor cores",
+      "libraries",
+      "Nsight",
+      "Triton",
+      "MLX",
+      "Trainium"
+    ],
+    "lecture": "45-dynamic-parallelism-future",
+    "status": "survey"
+  },
+  {
+    "source": "PMPP4",
+    "chapter": "A",
+    "topics": [
+      "IEEE floating point",
+      "roundoff",
+      "FMA",
+      "reassociation",
+      "accuracy stability reproducibility",
+      "pairwise batched GEMM",
+      "project validation",
+      "benchmark contract"
+    ],
+    "lecture": "46-gpu-numerics-project",
+    "status": "survey"
+  }
+]

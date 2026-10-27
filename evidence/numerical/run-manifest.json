@@ -1,0 +1,135 @@
+{
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "numpy": "2.4.6",
+  "runs": [
+    {
+      "script": "labs/numerical/01_errors_floating_point.py",
+      "exit_code": 0,
+      "sha256": "ad1506507ee3b6445427495f8387f6e6139a8e1cd7a43cfdc661c16e56d7a1cd",
+      "output": "evidence/numerical/01_errors_floating_point.txt",
+      "lecture": "docs/lectures/01-errors-floating-point.md",
+      "word_count": 1940
+    },
+    {
+      "script": "labs/numerical/02_linear_systems.py",
+      "exit_code": 0,
+      "sha256": "2342acd978d794470323c768504b799350debbfc7e3c203af01f6165cf01fab1",
+      "output": "evidence/numerical/02_linear_systems.txt",
+      "lecture": "docs/lectures/02-linear-systems.md",
+      "word_count": 1829
+    },
+    {
+      "script": "labs/numerical/03_least_squares_svd.py",
+      "exit_code": 0,
+      "sha256": "d50eca24c2ec62f10f5e6682681a0e529406f111c36da83e4ce34aa671c2914d",
+      "output": "evidence/numerical/03_least_squares_svd.txt",
+      "lecture": "docs/lectures/03-least-squares-svd.md",
+      "word_count": 1823
+    },
+    {
+      "script": "labs/numerical/04_eigenvalues.py",
+      "exit_code": 0,
+      "sha256": "23cb938b9cab895f38f74f8766e23e147de55ac1386b1bc91b704c9aca5bc250",
+      "output": "evidence/numerical/04_eigenvalues.txt",
+      "lecture": "docs/lectures/04-eigenvalues.md",
+      "word_count": 1789
+    },
+    {
+      "script": "labs/numerical/05_nonlinear_equations.py",
+      "exit_code": 0,
+      "sha256": "7414ab44e42c46f3cbd34cec5084c37bcbd3f884643ac50c90aede61da0ec502",
+      "output": "evidence/numerical/05_nonlinear_equations.txt",
+      "lecture": "docs/lectures/05-nonlinear-equations.md",
+      "word_count": 1831
+    },
+    {
+      "script": "labs/numerical/06_unconstrained_optimization.py",
+      "exit_code": 0,
+      "sha256": "5f8b548330419446277403500f4a60686b8c8dbe18e4b40e79a20ea581e33244",
+      "output": "evidence/numerical/06_unconstrained_optimization.txt",
+      "lecture": "docs/lectures/06-unconstrained-optimization.md",
+      "word_count": 1877
+    },
+    {
+      "script": "labs/numerical/07_constrained_optimization_svm.py",
+      "exit_code": 0,
+      "sha256": "abe6c83d821c94788e2376cf30113a0f2ab9c52d983fca571b429a56f960b970",
+      "output": "evidence/numerical/07_constrained_optimization_svm.txt",
+      "lecture": "docs/lectures/07-constrained-optimization-svm.md",
+      "word_count": 1880
+    },
+    {
+      "script": "labs/numerical/08_interpolation_splines.py",
+      "exit_code": 0,
+      "sha256": "cf27fd4d9082629f9c6554edf3ab2dbf70e1aef609e5953ece4d394190d4dc9d",
+      "output": "evidence/numerical/08_interpolation_splines.txt",
+      "lecture": "docs/lectures/08-interpolation-splines.md",
+      "word_count": 1792
+    },
+    {
+      "script": "labs/numerical/09_quadrature_differentiation.py",
+      "exit_code": 0,
+      "sha256": "18a625b7f3f478e1707d1b046e59dea4c8c2344c11d1a2fb8f9236eb74d27f3a",
+      "output": "evidence/numerical/09_quadrature_differentiation.txt",
+      "lecture": "docs/lectures/09-quadrature-differentiation.md",
+      "word_count": 2003
+    },
+    {
+      "script": "labs/numerical/10_ode_initial_value.py",
+      "exit_code": 0,
+      "sha256": "e20b2c7ebe351165a1b43a3c69d4f3b64ef9f7dcd2465656c3b6c9118c504d22",
+      "output": "evidence/numerical/10_ode_initial_value.txt",
+      "lecture": "docs/lectures/10-ode-initial-value.md",
+      "word_count": 1925
+    },
+    {
+      "script": "labs/numerical/11_boundary_value.py",
+      "exit_code": 0,
+      "sha256": "20690249e98eebbaa23da7e3b28f732804d98c539fb246351420cf8d607dbe1f",
+      "output": "evidence/numerical/11_boundary_value.txt",
+      "lecture": "docs/lectures/11-boundary-value.md",
+      "word_count": 1925
+    },
+    {
+      "script": "labs/numerical/12_pde.py",
+      "exit_code": 0,
+      "sha256": "74827acc7061e1ebab103d962e88fe3977c4cfa9cda8a9e9a9747ea0883907f0",
+      "output": "evidence/numerical/12_pde.txt",
+      "lecture": "docs/lectures/12-pde.md",
+      "word_count": 1804
+    },
+    {
+      "script": "labs/numerical/13_fourier_fft.py",
+      "exit_code": 0,
+      "sha256": "49ff86b1c1ff0959d603e24d3e111e329e6abde07b6bd365a5ce3330fd09bb4a",
+      "output": "evidence/numerical/13_fourier_fft.txt",
+      "lecture": "docs/lectures/13-fourier-fft.md",
+      "word_count": 1789
+    },
+    {
+      "script": "labs/numerical/14_random_simulation.py",
+      "exit_code": 0,
+      "sha256": "de647b30ca41815bdd32a6a9293d82dd91b5fd755cb82a2aa3074f31c9901ad7",
+      "output": "evidence/numerical/14_random_simulation.txt",
+      "lecture": "docs/lectures/14-random-simulation.md",
+      "word_count": 1794
+    },
+    {
+      "script": "labs/numerical/15_iterative_solvers.py",
+      "exit_code": 0,
+      "sha256": "73f0b8d7e121ce2897f7c1cda982bdbe8d24835141af85547f1c3d2242a61aa5",
+      "output": "evidence/numerical/15_iterative_solvers.txt",
+      "lecture": "docs/lectures/15-iterative-solvers.md",
+      "word_count": 1858
+    },
+    {
+      "script": "labs/numerical/16_numerical_workflow.py",
+      "exit_code": 0,
+      "sha256": "1fa025a3279969e89b00d351b465e74c80cfb6079f63476b260e0816fe59674d",
+      "output": "evidence/numerical/16_numerical_workflow.txt",
+      "lecture": "docs/lectures/16-numerical-workflow.md",
+      "word_count": 1993
+    }
+  ]
+}

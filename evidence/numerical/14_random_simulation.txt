@@ -1,0 +1,5 @@
+n=  64: random error=3.252338e-02, estimated SE=3.114520e-02, quasi error=7.770856e-03
+n= 256: random error=4.356464e-03, estimated SE=1.883435e-02, quasi error=1.950567e-03
+n=1024: random error=2.493155e-02, estimated SE=9.457994e-03, quasi error=4.881221e-04
+n=4096: random error=1.885137e-03, estimated SE=4.649878e-03, quasi error=1.220604e-04
+exponential sample mean: 0.503652; exact mean: 0.500000

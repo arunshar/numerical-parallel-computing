@@ -1,0 +1,5 @@
+four_step_solution= [0.0, 0.03125, 0.109375, 0.21875, 0.2734375, 0.21875, 0.109375, 0.03125, 0.0]
+sum=0.99218750, maximum=0.27343750
+dimension=1, tile_width=8, storage_ratio=1.250000
+dimension=2, tile_width=8, storage_ratio=1.562500
+dimension=3, tile_width=8, storage_ratio=1.953125

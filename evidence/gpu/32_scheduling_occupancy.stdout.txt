@@ -1,0 +1,3 @@
+registers/thread=32, shared/block=8192: blocks=8, warps=64, occupancy=1.000
+registers/thread=64, shared/block=8192: blocks=4, warps=32, occupancy=0.500
+registers/thread=32, shared/block=24576: blocks=2, warps=16, occupancy=0.250

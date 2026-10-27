@@ -1,0 +1,10 @@
+{
+  "partial_sums": [
+    124750,
+    125000,
+    125250,
+    125500
+  ],
+  "correct_sum": 500500,
+  "modeled_lost_update": 1
+}

@@ -1,0 +1,11 @@
+docs/_build/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+*.o
+*.so
+*.dylib
+.DS_Store
+work/
+downloaded-sources/

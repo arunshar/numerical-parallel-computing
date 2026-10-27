@@ -1,0 +1,7 @@
+{
+  "python_experiments": 14,
+  "passed": true,
+  "runtime_claims": "Deterministic analytic models and correctness checks only. No measured speedup claims.",
+  "source_review": "The local Fall 2025 CPU slides and Saad full-size lecture PDFs were text-extracted for topic review. Original prose and code only are committed.",
+  "chapter_numbering": "Published second-edition ordering is 6 message passing and 7 shared address space. The author preprint TOC has different ordering."
+}

@@ -1,0 +1,903 @@
+[
+  {
+    "book": "Heath",
+    "chapter": "1",
+    "chapter_title": "Scientific Computing",
+    "lessons": [
+      1
+    ],
+    "paths": [
+      "docs/lectures/01-errors-floating-point.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "2",
+    "chapter_title": "Systems of Linear Equations",
+    "lessons": [
+      2,
+      15
+    ],
+    "paths": [
+      "docs/lectures/02-linear-systems.md",
+      "docs/lectures/15-iterative-solvers.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "3",
+    "chapter_title": "Linear Least Squares",
+    "lessons": [
+      3
+    ],
+    "paths": [
+      "docs/lectures/03-least-squares-svd.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "4",
+    "chapter_title": "Eigenvalue Problems",
+    "lessons": [
+      4
+    ],
+    "paths": [
+      "docs/lectures/04-eigenvalues.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "5",
+    "chapter_title": "Nonlinear Equations",
+    "lessons": [
+      5
+    ],
+    "paths": [
+      "docs/lectures/05-nonlinear-equations.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "6",
+    "chapter_title": "Optimization",
+    "lessons": [
+      6,
+      7
+    ],
+    "paths": [
+      "docs/lectures/06-unconstrained-optimization.md",
+      "docs/lectures/07-constrained-optimization-svm.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "7",
+    "chapter_title": "Interpolation",
+    "lessons": [
+      8
+    ],
+    "paths": [
+      "docs/lectures/08-interpolation-splines.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "8",
+    "chapter_title": "Numerical Integration and Differentiation",
+    "lessons": [
+      9
+    ],
+    "paths": [
+      "docs/lectures/09-quadrature-differentiation.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "9",
+    "chapter_title": "Initial Value Problems for Ordinary Differential Equations",
+    "lessons": [
+      10
+    ],
+    "paths": [
+      "docs/lectures/10-ode-initial-value.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "10",
+    "chapter_title": "Boundary Value Problems for Ordinary Differential Equations",
+    "lessons": [
+      11
+    ],
+    "paths": [
+      "docs/lectures/11-boundary-value.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "11",
+    "chapter_title": "Partial Differential Equations",
+    "lessons": [
+      12
+    ],
+    "paths": [
+      "docs/lectures/12-pde.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "12",
+    "chapter_title": "Fast Fourier Transform",
+    "lessons": [
+      13
+    ],
+    "paths": [
+      "docs/lectures/13-fourier-fft.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Heath",
+    "chapter": "13",
+    "chapter_title": "Random Numbers and Simulation",
+    "lessons": [
+      14
+    ],
+    "paths": [
+      "docs/lectures/14-random-simulation.md"
+    ],
+    "source_url": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "1",
+    "chapter_title": "Numerical Algorithms",
+    "lessons": [
+      1,
+      16
+    ],
+    "paths": [
+      "docs/lectures/01-errors-floating-point.md",
+      "docs/lectures/16-numerical-workflow.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "2",
+    "chapter_title": "Roundoff Errors",
+    "lessons": [
+      1
+    ],
+    "paths": [
+      "docs/lectures/01-errors-floating-point.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "3",
+    "chapter_title": "Nonlinear Equations in One Variable",
+    "lessons": [
+      5
+    ],
+    "paths": [
+      "docs/lectures/05-nonlinear-equations.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "4",
+    "chapter_title": "Linear Algebra Background",
+    "lessons": [
+      2,
+      3,
+      4
+    ],
+    "paths": [
+      "docs/lectures/02-linear-systems.md",
+      "docs/lectures/03-least-squares-svd.md",
+      "docs/lectures/04-eigenvalues.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "5",
+    "chapter_title": "Linear Systems: Direct Methods",
+    "lessons": [
+      2
+    ],
+    "paths": [
+      "docs/lectures/02-linear-systems.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "6",
+    "chapter_title": "Least Squares",
+    "lessons": [
+      3
+    ],
+    "paths": [
+      "docs/lectures/03-least-squares-svd.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "7",
+    "chapter_title": "Linear Systems: Iterative Methods",
+    "lessons": [
+      15
+    ],
+    "paths": [
+      "docs/lectures/15-iterative-solvers.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "8",
+    "chapter_title": "Eigenvalues and Singular Values",
+    "lessons": [
+      4
+    ],
+    "paths": [
+      "docs/lectures/04-eigenvalues.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "9",
+    "chapter_title": "Nonlinear Systems and Optimization",
+    "lessons": [
+      5,
+      6,
+      7
+    ],
+    "paths": [
+      "docs/lectures/05-nonlinear-equations.md",
+      "docs/lectures/06-unconstrained-optimization.md",
+      "docs/lectures/07-constrained-optimization-svm.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "10",
+    "chapter_title": "Polynomial Interpolation",
+    "lessons": [
+      8
+    ],
+    "paths": [
+      "docs/lectures/08-interpolation-splines.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "11",
+    "chapter_title": "Piecewise Polynomial Interpolation",
+    "lessons": [
+      8
+    ],
+    "paths": [
+      "docs/lectures/08-interpolation-splines.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "12",
+    "chapter_title": "Best Approximation",
+    "lessons": [
+      8,
+      16
+    ],
+    "paths": [
+      "docs/lectures/08-interpolation-splines.md",
+      "docs/lectures/16-numerical-workflow.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "13",
+    "chapter_title": "Fourier Transform",
+    "lessons": [
+      13
+    ],
+    "paths": [
+      "docs/lectures/13-fourier-fft.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "14",
+    "chapter_title": "Numerical Differentiation",
+    "lessons": [
+      9
+    ],
+    "paths": [
+      "docs/lectures/09-quadrature-differentiation.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "15",
+    "chapter_title": "Numerical Integration",
+    "lessons": [
+      9
+    ],
+    "paths": [
+      "docs/lectures/09-quadrature-differentiation.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Ascher and Greif",
+    "chapter": "16",
+    "chapter_title": "Differential Equations",
+    "lessons": [
+      10,
+      11,
+      12
+    ],
+    "paths": [
+      "docs/lectures/10-ode-initial-value.md",
+      "docs/lectures/11-boundary-value.md",
+      "docs/lectures/12-pde.md"
+    ],
+    "source_url": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "1",
+    "chapter_title": "Introduction",
+    "lessons": [
+      17
+    ],
+    "paths": [
+      "docs/lectures/17-architecture-cache.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "2",
+    "chapter_title": "Parallel Programming Platforms",
+    "lessons": [
+      17
+    ],
+    "paths": [
+      "docs/lectures/17-architecture-cache.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "3",
+    "chapter_title": "Principles of Parallel Algorithm Design",
+    "lessons": [
+      18
+    ],
+    "paths": [
+      "docs/lectures/18-decomposition-task-graphs.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "4",
+    "chapter_title": "Basic Communication Operations",
+    "lessons": [
+      20,
+      22
+    ],
+    "paths": [
+      "docs/lectures/20-communication-networks.md",
+      "docs/lectures/22-mpi-collectives-topology.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "5",
+    "chapter_title": "Analytical Modeling of Parallel Programs",
+    "lessons": [
+      23
+    ],
+    "paths": [
+      "docs/lectures/23-performance-models.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "6",
+    "chapter_title": "Programming Using the Message-Passing Paradigm",
+    "lessons": [
+      21,
+      22
+    ],
+    "paths": [
+      "docs/lectures/21-mpi-point-to-point.md",
+      "docs/lectures/22-mpi-collectives-topology.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "7",
+    "chapter_title": "Programming Shared Address Space Platforms",
+    "lessons": [
+      19
+    ],
+    "paths": [
+      "docs/lectures/19-pthreads-openmp.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "8",
+    "chapter_title": "Dense Matrix Algorithms",
+    "lessons": [
+      24
+    ],
+    "paths": [
+      "docs/lectures/24-dense-matrix-cannon.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "9",
+    "chapter_title": "Sorting",
+    "lessons": [
+      25
+    ],
+    "paths": [
+      "docs/lectures/25-sorting-merging.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "10",
+    "chapter_title": "Graph Algorithms",
+    "lessons": [
+      26
+    ],
+    "paths": [
+      "docs/lectures/26-graphs-sparse-partitioning.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "11",
+    "chapter_title": "Search Algorithms for Discrete Optimization Problems",
+    "lessons": [
+      27
+    ],
+    "paths": [
+      "docs/lectures/27-search-dynamic-programming.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "12",
+    "chapter_title": "Dynamic Programming",
+    "lessons": [
+      27
+    ],
+    "paths": [
+      "docs/lectures/27-search-dynamic-programming.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "13",
+    "chapter_title": "Fast Fourier Transform",
+    "lessons": [
+      28
+    ],
+    "paths": [
+      "docs/lectures/28-parallel-fft.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Grama and colleagues",
+    "chapter": "A",
+    "chapter_title": "Appendix A: Complexity of Functions and Order Analysis",
+    "lessons": [
+      18,
+      23
+    ],
+    "paths": [
+      "docs/lectures/18-decomposition-task-graphs.md",
+      "docs/lectures/23-performance-models.md"
+    ],
+    "source_url": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "1",
+    "chapter_title": "Introduction",
+    "lessons": [
+      31
+    ],
+    "paths": [
+      "docs/lectures/31-cuda-execution.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "2",
+    "chapter_title": "Heterogeneous data parallel computing",
+    "lessons": [
+      31
+    ],
+    "paths": [
+      "docs/lectures/31-cuda-execution.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "3",
+    "chapter_title": "Multidimensional grids and data",
+    "lessons": [
+      31
+    ],
+    "paths": [
+      "docs/lectures/31-cuda-execution.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "4",
+    "chapter_title": "Compute architecture and scheduling",
+    "lessons": [
+      32
+    ],
+    "paths": [
+      "docs/lectures/32-scheduling-occupancy.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "5",
+    "chapter_title": "Memory architecture and data locality",
+    "lessons": [
+      33
+    ],
+    "paths": [
+      "docs/lectures/33-memory-tiling.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "6",
+    "chapter_title": "Performance considerations",
+    "lessons": [
+      34
+    ],
+    "paths": [
+      "docs/lectures/34-gpu-performance.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "7",
+    "chapter_title": "Convolution",
+    "lessons": [
+      35
+    ],
+    "paths": [
+      "docs/lectures/35-convolution.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "8",
+    "chapter_title": "Stencil",
+    "lessons": [
+      36
+    ],
+    "paths": [
+      "docs/lectures/36-stencils.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "9",
+    "chapter_title": "Parallel histogram",
+    "lessons": [
+      37
+    ],
+    "paths": [
+      "docs/lectures/37-histograms-atomics.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "10",
+    "chapter_title": "Reduction",
+    "lessons": [
+      38
+    ],
+    "paths": [
+      "docs/lectures/38-reductions.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "11",
+    "chapter_title": "Prefix sum (scan)",
+    "lessons": [
+      39
+    ],
+    "paths": [
+      "docs/lectures/39-prefix-scan.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "12",
+    "chapter_title": "Merge",
+    "lessons": [
+      40
+    ],
+    "paths": [
+      "docs/lectures/40-merge-sort.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "13",
+    "chapter_title": "Sorting",
+    "lessons": [
+      40
+    ],
+    "paths": [
+      "docs/lectures/40-merge-sort.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "14",
+    "chapter_title": "Sparse matrix computation",
+    "lessons": [
+      41
+    ],
+    "paths": [
+      "docs/lectures/41-sparse-graphs.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "15",
+    "chapter_title": "Graph traversal",
+    "lessons": [
+      41
+    ],
+    "paths": [
+      "docs/lectures/41-sparse-graphs.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "16",
+    "chapter_title": "Deep learning",
+    "lessons": [
+      42
+    ],
+    "paths": [
+      "docs/lectures/42-deep-learning.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "17",
+    "chapter_title": "Iterative magnetic resonance imaging reconstruction",
+    "lessons": [
+      43
+    ],
+    "paths": [
+      "docs/lectures/43-mri-electrostatics.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "18",
+    "chapter_title": "Electrostatic potential map",
+    "lessons": [
+      43
+    ],
+    "paths": [
+      "docs/lectures/43-mri-electrostatics.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "19",
+    "chapter_title": "Parallel programming and computational thinking",
+    "lessons": [
+      44,
+      46
+    ],
+    "paths": [
+      "docs/lectures/44-streams-clusters.md",
+      "docs/lectures/46-gpu-numerics-project.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "20",
+    "chapter_title": "Programming a heterogeneous computing cluster",
+    "lessons": [
+      44
+    ],
+    "paths": [
+      "docs/lectures/44-streams-clusters.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "21",
+    "chapter_title": "CUDA dynamic parallelism",
+    "lessons": [
+      45
+    ],
+    "paths": [
+      "docs/lectures/45-dynamic-parallelism-future.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "22",
+    "chapter_title": "Advanced practices and future evolution",
+    "lessons": [
+      45
+    ],
+    "paths": [
+      "docs/lectures/45-dynamic-parallelism-future.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "23",
+    "chapter_title": "Conclusion and outlook",
+    "lessons": [
+      45
+    ],
+    "paths": [
+      "docs/lectures/45-dynamic-parallelism-future.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  },
+  {
+    "book": "Hwu, Kirk, and El Hajj",
+    "chapter": "A",
+    "chapter_title": "Appendix A: Numerical considerations",
+    "lessons": [
+      46,
+      1
+    ],
+    "paths": [
+      "docs/lectures/46-gpu-numerics-project.md",
+      "docs/lectures/01-errors-floating-point.md"
+    ],
+    "source_url": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "scope": "Topic explanations and selected experiments; advanced mechanisms may be surveys."
+  }
+]

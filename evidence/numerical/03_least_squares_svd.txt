@@ -1,0 +1,8 @@
+intercept and slope: [1.166667 0.5     ]
+residual: [-0.166667  0.333333 -0.166667]
+normal-equation residual: 4.440892e-16
+singular values: [3.162278e+00 2.236068e-07]
+condition of B: 1.414214e+07
+condition of B.T@B: 2.009920e+14
+relative cutoff 1e-08: numerical rank 2
+relative cutoff 1e-06: numerical rank 1

@@ -1,0 +1,7 @@
+n=10: Euler error=1.920100e-02, RK4 error=3.332411e-07
+n=20: Euler error=9.393519e-03, RK4 error=1.997610e-08
+n=40: Euler error=4.647001e-03, RK4 error=1.222742e-09
+n=80: Euler error=2.311297e-03, RK4 error=7.562884e-11
+forward Euler amplification: -2.000000
+backward Euler amplification: 0.250000
+exact amplification: 0.049787

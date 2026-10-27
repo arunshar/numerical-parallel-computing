@@ -1,0 +1,7 @@
+solution: [0.2 0.6]
+residual norm: 0.000000e+00
+condition number: 2.618034
+sensitive-system condition number: 4.000002e+06
+relative data change: 4.999999e-08
+relative solution change: 2.000000e-01
+perturbed residual: 0.000000e+00

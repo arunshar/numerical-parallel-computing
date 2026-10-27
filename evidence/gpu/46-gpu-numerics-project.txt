@@ -1,0 +1,5 @@
+integer_case_equal= True
+result= [[-12, -44, -16], [-27, -20, -5], [13, -28, -17]]
+float32_reassociation_max_difference=7.62939453e-05
+direct_matrix_products=262144, factored_matrix_products=1
+matrix_entries_to_sum=16384

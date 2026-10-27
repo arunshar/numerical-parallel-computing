@@ -1,0 +1,4 @@
+elements=10, blocks=3, launched_threads=12
+valid_threads=10, skipped_threads=2
+vector_sum= [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+rectangular_address_count=15

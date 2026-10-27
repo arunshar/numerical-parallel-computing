@@ -1,0 +1,8 @@
+bisection error bound: 4.656613e-10
+bisection root: 1.414213561919
+Newton step 1: x=1.500000000000, error=8.578644e-02
+Newton step 2: x=1.416666666667, error=2.453104e-03
+Newton step 3: x=1.414215686275, error=2.123901e-06
+Newton step 4: x=1.414213562375, error=1.594724e-12
+Newton step 5: x=1.414213562373, error=0.000000e+00
+system root: [1. 1.]

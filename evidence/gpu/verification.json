@@ -1,0 +1,122 @@
+{
+  "python": "3.14.6",
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "experiments": [
+    {
+      "script": "labs/gpu/31_cuda_execution.py",
+      "exit_code": 0,
+      "sha256": "49726a5647815a219c9e8593c07c1da664c21b12fd450b2800680b1a73c1a5aa",
+      "stdout_path": "evidence/gpu/31_cuda_execution.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/32_scheduling_occupancy.py",
+      "exit_code": 0,
+      "sha256": "1a109b3505116f41b57b9ec17801b8722462a768ca3d57d7929b41e47c021adf",
+      "stdout_path": "evidence/gpu/32_scheduling_occupancy.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/33_memory_tiling.py",
+      "exit_code": 0,
+      "sha256": "d84ba1afe7734824d7b6ce6c1b87d852a3d5a508647f497a9bb9af2611043b59",
+      "stdout_path": "evidence/gpu/33_memory_tiling.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/34_gpu_performance.py",
+      "exit_code": 0,
+      "sha256": "5ec6a5c23a2b82ff333d052e499d0d7fa131bc75227ad4100339cd54015835e5",
+      "stdout_path": "evidence/gpu/34_gpu_performance.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/35_convolution.py",
+      "exit_code": 0,
+      "sha256": "a619bd9c4f3f5983d00f9dc4efec45dcf2f828f88b6a3ba51b3310f8d1374747",
+      "stdout_path": "evidence/gpu/35_convolution.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/36_stencils.py",
+      "exit_code": 0,
+      "sha256": "8e599bf2cb5499abce18f851e861b86a0018c6534770314f0a394eac194a204b",
+      "stdout_path": "evidence/gpu/36_stencils.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/37_histograms_atomics.py",
+      "exit_code": 0,
+      "sha256": "9e68a871459ca2e5a38bb156762fb740c97c33f13107e10647e7ca105236d70d",
+      "stdout_path": "evidence/gpu/37_histograms_atomics.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/38_reductions.py",
+      "exit_code": 0,
+      "sha256": "af997a5f30ab1c6842adcbe6eeb8c1af9cf7299a801aa8bf45fcc3972d53a3ef",
+      "stdout_path": "evidence/gpu/38_reductions.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/39_prefix_scan.py",
+      "exit_code": 0,
+      "sha256": "645ddfeeacff2d5afaee1a792f679d75952ce3ce5ecb5f0e015f6b0ba17bc555",
+      "stdout_path": "evidence/gpu/39_prefix_scan.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/40_merge_sort.py",
+      "exit_code": 0,
+      "sha256": "7d85f36017be9bab24739b92ce2b6fe3316d928e1b0ed53587f99f6c7132e3fb",
+      "stdout_path": "evidence/gpu/40_merge_sort.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/41_sparse_graphs.py",
+      "exit_code": 0,
+      "sha256": "5a240c683f44ea27ef3e25fe03b7df01e91b433d0be0b03f213b0b4cfdf460d9",
+      "stdout_path": "evidence/gpu/41_sparse_graphs.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/42_deep_learning.py",
+      "exit_code": 0,
+      "sha256": "8a2d0498123b22424629fdd02a6732febfd7f921badd150ba3c3b12966b0266c",
+      "stdout_path": "evidence/gpu/42_deep_learning.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/43_mri_electrostatics.py",
+      "exit_code": 0,
+      "sha256": "c4bbca1f725104f2d79e5cb77023c39e52675afb70bb41edb8b51e613248df8f",
+      "stdout_path": "evidence/gpu/43_mri_electrostatics.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/44_streams_clusters.py",
+      "exit_code": 0,
+      "sha256": "0e4f7da0d929ece2b41d21fc88a3596592027081f96d34c34f8dc7c84caaefb8",
+      "stdout_path": "evidence/gpu/44_streams_clusters.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/45_dynamic_parallelism_future.py",
+      "exit_code": 0,
+      "sha256": "7596aa3e301adfddbbe3d5eb2f39a6645557e6a4793a527facc76630bb9afd18",
+      "stdout_path": "evidence/gpu/45_dynamic_parallelism_future.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    },
+    {
+      "script": "labs/gpu/46_gpu_numerics_project.py",
+      "exit_code": 0,
+      "sha256": "723418441c1f02cab2249c4974a23e2f927fd7c87c81b54affa86e37aecad420",
+      "stdout_path": "evidence/gpu/46_gpu_numerics_project.stdout.txt",
+      "evidence_scope": "CPU arithmetic reference or declared analytic model"
+    }
+  ],
+  "cpu_experiments_passed": 16,
+  "native_cuda_compilation": "UNVERIFIED",
+  "native_cuda_execution": "UNVERIFIED",
+  "gpu_benchmarks_performed": false
+}

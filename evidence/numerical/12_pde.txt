@@ -1,0 +1,5 @@
+r=0.4: maximum absolute value after 100 steps=3.716453e-01
+r=0.4: highest-frequency amplification=-0.600000
+r=0.6: maximum absolute value after 100 steps=4.100186e+06
+r=0.6: highest-frequency amplification=-1.400000
+periodic mass change: 5.551115e-17

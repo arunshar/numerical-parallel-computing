@@ -1,0 +1,5 @@
+chunks=1, sequential=9.0 ms, ideal_pipeline=9.0 ms, speedup_bound=1.000
+chunks=2, sequential=18.0 ms, ideal_pipeline=14.0 ms, speedup_bound=1.286
+chunks=4, sequential=36.0 ms, ideal_pipeline=24.0 ms, speedup_bound=1.500
+chunks=8, sequential=72.0 ms, ideal_pipeline=44.0 ms, speedup_bound=1.636
+halo_sequential=12.0 ms, halo_ideal_overlap=8.0 ms

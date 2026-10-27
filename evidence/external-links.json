@@ -1,0 +1,248 @@
+[
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap02.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap01.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap03.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap04.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap05.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap06.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap08.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap09.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap10.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap11.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap13.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap12.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://classpages.cselabs.umn.edu/Spring-2025/csci5302/Notes/Slides3/chap07.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://docs.nvidia.com/cuda/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://colab.research.google.com/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://docs.nvidia.com/cuda/floating-point/index.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://docs.nvidia.com/cuda/cuda-programming-guide/index.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://docs.nvidia.com/cuda/cuda-programming-guide/04-special-topics/dynamic-parallelism.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://docs.scipy.org/doc/scipy/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://epubs.siam.org/doi/book/10.1137/1.9781611975581",
+    "status": "broken",
+    "code": 0,
+    "info": "403 Client Error: Forbidden for url: https://epubs.siam.org/doi/book/10.1137/1.9781611975581"
+  },
+  {
+    "uri": "https://epubs.siam.org/doi/book/10.1137/9780898719987",
+    "status": "broken",
+    "code": 0,
+    "info": "403 Client Error: Forbidden for url: https://epubs.siam.org/doi/book/10.1137/9780898719987"
+  },
+  {
+    "uri": "https://jimtmooney.github.io/Courses/F25/index.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://heath.cs.illinois.edu/scicomp/contents/index.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://heath.cs.illinois.edu/scicomp/notes/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://github.com/NVIDIA/cutlass",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://docs.nvidia.com/deeplearning/cudnn/",
+    "status": "redirected",
+    "code": 307,
+    "info": "https://docs.nvidia.com/cudnn/overview"
+  },
+  {
+    "uri": "https://ml-explore.github.io/mlx/build/html/index.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://numpy.org/doc/stable/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://siboehm.com/articles/22/CUDA-MMM",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://triton-lang.org/main/index.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://www-users.cse.umn.edu/~saad/csci5451/notes.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://www.cs.purdue.edu/homes/ayg/book/toc.html",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://www.cs.purdue.edu/homes/ayg/book/Slides/chap6_slides.pdf",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://www.mpi-forum.org/docs/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://www.openmp.org/specifications/",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  },
+  {
+    "uri": "https://www.educate.elsevier.com/book/details/9780323912310",
+    "status": "working",
+    "code": 0,
+    "info": ""
+  }
+]

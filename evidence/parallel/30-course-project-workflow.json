@@ -1,0 +1,17 @@
+{
+  "seed": 5451,
+  "A_shape": [
+    7,
+    5
+  ],
+  "B_shape": [
+    5,
+    6
+  ],
+  "dtype": "float64",
+  "tile": 3,
+  "max_abs_error": 8.881784197001252e-16,
+  "input_sha256": "5b80f8064e32ef337056be992e149bf709cc9da22481df492edc98a461d8d420",
+  "runtime_measured": false,
+  "claim": "The blocked result matches the reference within1e-12."
+}

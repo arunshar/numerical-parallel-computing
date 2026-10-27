@@ -1,0 +1,12 @@
+[
+  {
+    "bytes": 1024,
+    "tree_allreduce_us": 12.614,
+    "ring_allreduce_us": 28.179
+  },
+  {
+    "bytes": 1048576,
+    "tree_allreduce_us": 641.146,
+    "ring_allreduce_us": 211.501
+  }
+]

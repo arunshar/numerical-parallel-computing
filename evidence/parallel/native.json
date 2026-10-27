@@ -1,0 +1,138 @@
+{
+  "platform": "macOS-26.7.2-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "tool_versions": {
+    "clang": {
+      "returncode": 0,
+      "stdout": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+      "stderr": ""
+    },
+    "mpicc": {
+      "returncode": 0,
+      "stdout": "Apple clang version 21.0.0 (clang-2100.3.34.2)\nTarget: arm64-apple-darwin25.6.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+      "stderr": ""
+    },
+    "mpiexec": {
+      "returncode": 0,
+      "stdout": "mpiexec (Open MPI) 5.0.9\n\nReport bugs to https://www.open-mpi.org/community/help/\n\n",
+      "stderr": ""
+    },
+    "homebrew_openmp_mpi": {
+      "returncode": 0,
+      "stdout": "libomp 22.1.8\nopen-mpi 5.0.9\n",
+      "stderr": ""
+    }
+  },
+  "max_processes_or_threads": 4,
+  "cases": [
+    {
+      "example": "pthread_sum",
+      "source": "labs/parallel/pthread_sum.c",
+      "source_sha256": "40da6ce492b28fb95a406f19eaec0f7940598b91be2f86d5a3a120b2b58b5fe5",
+      "compile_command": [
+        "clang",
+        "-std=c11",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-pthread",
+        "labs/parallel/pthread_sum.c",
+        "-o",
+        "<temporary>/pthread_sum"
+      ],
+      "compile_returncode": 0,
+      "compile_stderr": "",
+      "run_command": [
+        "<temporary>/pthread_sum"
+      ],
+      "run_returncode": 0,
+      "stdout": "pthread sum = 500500\n",
+      "stderr": ""
+    },
+    {
+      "example": "openmp_sum",
+      "source": "labs/parallel/openmp_sum.c",
+      "source_sha256": "d7500fb1c4df2263208bfdec345b4ae8988f62e4bbab6f76a0cc2ffcb31797d7",
+      "compile_command": [
+        "clang",
+        "-std=c11",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Xpreprocessor",
+        "-fopenmp",
+        "-I/opt/homebrew/opt/libomp/include",
+        "-L/opt/homebrew/opt/libomp/lib",
+        "-Wl,-rpath,/opt/homebrew/opt/libomp/lib",
+        "-lomp",
+        "labs/parallel/openmp_sum.c",
+        "-o",
+        "<temporary>/openmp_sum"
+      ],
+      "compile_returncode": 0,
+      "compile_stderr": "",
+      "run_command": [
+        "<temporary>/openmp_sum"
+      ],
+      "run_returncode": 0,
+      "stdout": "OpenMP sum = 500500, threads = 4\n",
+      "stderr": ""
+    },
+    {
+      "example": "mpi_exchange",
+      "source": "labs/parallel/mpi_exchange.c",
+      "source_sha256": "a257b8a49d7c1492f700ea052939010854cd0aa270f09f030df115619bba1742",
+      "compile_command": [
+        "mpicc",
+        "-std=c11",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "labs/parallel/mpi_exchange.c",
+        "-o",
+        "<temporary>/mpi_exchange"
+      ],
+      "compile_returncode": 0,
+      "compile_stderr": "",
+      "run_command": [
+        "mpiexec",
+        "--oversubscribe",
+        "-n",
+        "4",
+        "<temporary>/mpi_exchange"
+      ],
+      "run_returncode": 0,
+      "stdout": "MPI ring exchange: ranks = 4, all_correct = 1\n",
+      "stderr": ""
+    },
+    {
+      "example": "mpi_collectives",
+      "source": "labs/parallel/mpi_collectives.c",
+      "source_sha256": "db8046c79a56a7ad3cc27278f75c4a99386f02d1b1b5d11d6f8bcafbc9a79f08",
+      "compile_command": [
+        "mpicc",
+        "-std=c11",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "labs/parallel/mpi_collectives.c",
+        "-o",
+        "<temporary>/mpi_collectives"
+      ],
+      "compile_returncode": 0,
+      "compile_stderr": "",
+      "run_command": [
+        "mpiexec",
+        "--oversubscribe",
+        "-n",
+        "4",
+        "<temporary>/mpi_collectives"
+      ],
+      "run_returncode": 0,
+      "stdout": "MPI collectives: sum = 36, topology_correct = 1\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "scope": "Local native correctness checks only. No timing or speedup measurements."
+}

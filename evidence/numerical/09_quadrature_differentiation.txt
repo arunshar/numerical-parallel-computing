@@ -1,0 +1,9 @@
+n= 4: trapezoid error=8.940076e-03, Simpson error=3.701346e-05
+n= 8: trapezoid error=2.236764e-03, Simpson error=2.326241e-06
+n=16: trapezoid error=5.593001e-04, Simpson error=1.455928e-07
+n=32: trapezoid error=1.398319e-04, Simpson error=9.102726e-09
+n=64: trapezoid error=3.495839e-05, Simpson error=5.689702e-10
+two-point Gauss integral of x^2 on [-1,1]: 0.666666666667
+h=0.20: central error=6.680013e-03, extrapolated error=3.337304e-06
+h=0.10: central error=1.667500e-03, extrapolated error=2.083953e-07
+h=0.05: central error=4.167188e-04, extrapolated error=1.302180e-08

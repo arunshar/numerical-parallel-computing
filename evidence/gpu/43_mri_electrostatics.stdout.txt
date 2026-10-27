@@ -1,0 +1,3 @@
+objective_initial=3.000000, objective_final=0.272727
+adjoint_identity_error=0.000e+00
+softened_potential= [0.642364, 0.207827, 0.094094]

@@ -1,0 +1,3 @@
+histogram= [6, 4, 3, 3]
+direct_global_updates=16, private_nonzero_merges=8
+one_bin_private_merges=2
