@@ -57,7 +57,7 @@ python -m sphinx -W --keep-going -b html docs docs/_build/html
 
 The HTML reading edition requires Pandoc when it is rebuilt. The finished HTML file has no external JavaScript or font dependency. The Sphinx website uses MathJax for mathematical typesetting.
 
-GitHub Actions verifies the portable labs, builds the website with warnings treated as errors, and deploys GitHub Pages. The repository also includes a Read the Docs configuration. That service needs a separate account import before it hosts a live copy.
+GitHub Actions verifies the portable labs, builds the website with warnings treated as errors, checks that every page fits a 375 px phone screen, and deploys GitHub Pages. You can run the phone-screen check locally with `python scripts/check_mobile.py docs/_build/html --include-static`. It needs Chrome. The repository also includes a Read the Docs configuration. That service needs a separate account import before it hosts a live copy.
 
 ## The repository keeps source ownership clear.
 

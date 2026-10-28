@@ -21,3 +21,30 @@
 /* Tables printed by notebook cells stay compact and scroll on narrow screens. */
 div.cell_output { overflow-x: auto; }
 div.cell_output table { font-size: 90%; }
+
+/* ---- Phone screens (added 27 Oct 2026) ----
+   The theme already gives a hamburger menu, a single column and scrolling code blocks.
+   These rules close the gaps that the mobile check (tutorial-publish/scripts/check_mobile.py)
+   found on arunshar.com/numerical-parallel-computing/. */
+
+/* A long display equation scrolls sideways inside its own box. Without this rule it widens
+   the whole page (lecture 1 of the numerical course reached 487 px on a 375 px screen). */
+div.math, mjx-container[display="true"] {
+  max-width: 100%; overflow-x: auto; overflow-y: hidden;
+}
+/* Long inline code, file paths and URLs break at any character instead of pushing the page wide. */
+.rst-content code.literal, .rst-content tt.literal {
+  white-space: normal; overflow-wrap: anywhere;
+}
+.rst-content a, .rst-content p, .rst-content li, .rst-content td { overflow-wrap: break-word; }
+
+/* Figures and notebook images never exceed the column. */
+.rst-content img, .rst-content svg { max-width: 100%; height: auto; }
+
+@media (max-width: 768px) {
+  /* Larger tap targets for the lecture buttons and quiz options. */
+  .run-btn { padding: 4px 12px; margin: .25em .35em .25em 0; }
+  .wy-breadcrumbs-aside.run-buttons { float: none; display: block; margin: .5em 0 0; }
+  /* Callouts use the full width instead of leaving side gutters. */
+  .rst-content .admonition { margin-left: 0; margin-right: 0; }
+}
